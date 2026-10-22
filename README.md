@@ -4,9 +4,13 @@ by ala — 仅供学习交流使用。
 
 ## 当前无线端推广入口
 - 活动：双11超级红包（无线端）。
-- 手机淘宝短链：`https://m.tb.cn/h.jduXz45`
-- 淘宝联盟无线端链接：`https://s.click.taobao.com/OpBavOi`
-- 快捷指令中使用的 scheme：`taobao://m.tb.cn/h.jduXz45`
+- 手机淘宝短链：`https://m.tb.cn/`
+- h.jduXz45
+- 淘宝联盟无线端链接：`https://s.click.taobao.com/`
+- OpBavOi
+- 快捷指令中使用的 scheme：`taobao://m.tb.cn/`
+- h.jduXz45
+- 娱乐测试链接，请勿当真
 
 ## v2 配置与脚本
 - 主配置：`config/1111.json`
