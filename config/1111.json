@@ -1,6 +1,6 @@
 {
   "activity": {
-    "tip": "任务执行结束后可查看结果。请遵守淘宝活动规则；推广链接来自你自己的淘宝联盟账号。",
+    "tip": "请选择要执行的任务",
     "vvv": 1,
     "list": [
       "❤️开始1111任务❤️",
@@ -30,7 +30,7 @@
       "type": "task1",
       "endpage": "taobao://m.taobao.com/tbopen/index.html?h5Url=https%3A%2F%2Fm.taobao.com",
       "main": "taobao://m.taobao.com/tbopen/index.html?h5Url=https%3A%2F%2Fm.taobao.com",
-      "endMessage": "种树任务结束",
+      "endMessage": "任务已完成",
       "task": {
         "tag": "zhuanhuafei",
         "scheme": "taobao://m.taobao.com/tbopen/index.html?h5Url=",
