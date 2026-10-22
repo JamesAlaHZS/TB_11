@@ -19,6 +19,7 @@ by ala — 仅供学习交流使用。
 - 主脚本：`https://raw.githubusercontent.com/JamesAlaHZS/TB_11/main/scripts/tb_v2.txt`
 - 备用配置：`https://raw.githubusercontent.com/JamesAlaHZS/TB_11/main/config/1111-backup.json`
 - 备用脚本：`https://raw.githubusercontent.com/JamesAlaHZS/TB_11/main/scripts/mtbjs_v2.js`
+- 快捷指令更新标记：`https://raw.githubusercontent.com/JamesAlaHZS/TB_11/main/config/update-v2.txt`（解码后打开本仓库主页）
 
 ## 说明
 - v2 快捷指令只引用本仓库的主配置与备用配置；配置中的脚本地址也统一指向 v2 文件。
