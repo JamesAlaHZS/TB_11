@@ -142,7 +142,9 @@ def run(snapshot=None,initialize=False,check=False):
             result=js_clean(source)
             ast_hash=ast_check(source,result)
             if not initialize and ast_hash!=baseline[target]['ast_sha256']:raise ValueError('Upstream script logic changed; review required: '+target)
-            approved[target]={'ast_sha256':ast_hash}
+            url_tokens=sorted(set(re.findall(r"(?:[a-z]+://|https?%3A)[^\s'\"<>`]+",result)))
+            if not initialize and url_tokens!=baseline[target]['url_tokens']:raise ValueError('New script or comment URL; review required: '+target)
+            approved[target]={'ast_sha256':ast_hash,'url_tokens':url_tokens}
         suspicious(result)
         outputs[target]=result
         record['sanitized_sha256']=digest(result.encode());current[target]=record

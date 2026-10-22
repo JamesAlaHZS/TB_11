@@ -171,15 +171,36 @@
     }
   },
   "scripts/ck-common.js": {
-    "ast_sha256": "14bcbf97ca39fee6b3c0e94b7975882123cac16d55e76c9750c463d1a8c99596"
+    "ast_sha256": "14bcbf97ca39fee6b3c0e94b7975882123cac16d55e76c9750c463d1a8c99596",
+    "url_tokens": [
+      "taobao://m.taobao.com/tbopen/index.html?h5Url=https://m.taobao.com",
+      "taobao://m.taobao.com/tbopen/index.html?h5Url=https://m.tb.cn/h.",
+      "taobao://m.tb.cn/h.",
+      "taobaolite://m.ltao.com/open/index.html?action=ali.open.nav&h5Url=",
+      "taobaolite://m.ltao.com/open/index.html?action=ali.open.nav&h5Url=https%3A%2F%2Fm.ltao.com%2Fhomepage%23mallPage"
+    ]
   },
   "scripts/ck-racing.js": {
-    "ast_sha256": "98e1e197f725721ca2813301ffc03777d48c567b711595bb6810f11c6f7f2f3b"
+    "ast_sha256": "98e1e197f725721ca2813301ffc03777d48c567b711595bb6810f11c6f7f2f3b",
+    "url_tokens": [
+      "https://service-qd1gmnyf-1257225808.sh.apigw.tencentcs.com/release/getUrl?t=${t}&k=${tag}",
+      "taobao://m.taobao.com/tbopen/index.html?h5Url=https://m.taobao.com",
+      "taobao://m.tb.cn/h."
+    ]
   },
   "scripts/ck-china.js": {
-    "ast_sha256": "e64220b8e2c5cb72dd311d938e99cb2b938f414abdb879b1d4f0df2422200811"
+    "ast_sha256": "e64220b8e2c5cb72dd311d938e99cb2b938f414abdb879b1d4f0df2422200811",
+    "url_tokens": [
+      "https://service-qd1gmnyf-1257225808.sh.apigw.tencentcs.com/release/getUrl?t=${t}&k=${tag}",
+      "taobao://m.taobao.com/tbopen/index.html?h5Url=https://m.taobao.com",
+      "taobao://m.tb.cn/h."
+    ]
   },
   "scripts/ck-android.js": {
-    "ast_sha256": "bfd37e735f36adb6d44977da8bcf7c5d8ef730a0db45ce5a47597f27d288dfb4"
+    "ast_sha256": "bfd37e735f36adb6d44977da8bcf7c5d8ef730a0db45ce5a47597f27d288dfb4",
+    "url_tokens": [
+      "taobao://m.taobao.com/tbopen/index.html?h5Url=https://m.taobao.com",
+      "taobao://m.tb.cn/h."
+    ]
   }
 }
