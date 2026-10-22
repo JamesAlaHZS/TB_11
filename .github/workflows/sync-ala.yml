@@ -1,0 +1,34 @@
+name: Sync ala resources
+on:
+  schedule:
+    - cron: '17 * * * *'
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: sync-ala
+  cancel-in-progress: false
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+      - name: Install parser
+        run: npm install --prefix maintenance --ignore-scripts --no-audit --no-fund
+      - name: Test replacement guards
+        run: python maintenance/test_sync.py
+      - name: Fetch, sanitize and validate
+        run: python maintenance/sync.py
+      - name: Validate runtime resources
+        run: node maintenance/test.cjs
+      - name: Publish only after all checks pass
+        shell: bash
+        run: |
+          git add config/ck-*.json scripts/ck-*.js maintenance/sync-state.json
+          if ! git diff --cached --quiet; then
+            git config user.name 'ala-sync[bot]'
+            git config user.email '163001183+JamesAlaHZS@users.noreply.github.com'
+            git commit -m 'Sync validated ala resources'
+            git push origin HEAD:main
+          fi

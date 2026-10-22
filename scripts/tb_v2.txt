@@ -1,7 +1,7 @@
-// by ala | TB_11 v2 | 仅供学习交流使用 | Mobile campaign short code: jduXz45
+// edit by ala，仅供交流学习 | QQ群：1095180136
 function run () {
     // No separate start promotion; keep task flow focused on the user campaign.
-    var endStr = 'jduXz45';
+    var endStr = 'j3VpHkQ';
     var data = [];
     var More = configValue ? configValue : 1;
 
@@ -122,3 +122,4 @@ function run () {
 
     return JSON.stringify(dd);
 };
+

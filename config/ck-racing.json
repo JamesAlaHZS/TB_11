@@ -1,0 +1,197 @@
+{
+  "endPage": "taobao://m.tb.cn/h.j3VpHkQ",
+  "tag": "tm1111",
+  "aTag": "eyJzY2VuZUlkIjoiODkxNyJ9",
+  "activity": {
+    "tip": "edit by ala，仅供交流学习\nQQ群：1095180136\n切记cookie账户和app账户是一个账户\n---------------\n一个手机不能运行超过三个账号\n---------------\nck模式没问题的可以不用新的\n---------------\n",
+    "list": [
+      "点我看视频教程",
+      "运行任务-持久化模式",
+      "运行任务-手动填ck运行",
+      "添加或删除ck持久化账号",
+      "点我快速抓去抓ck页面",
+      "ala 交流群 1095180136",
+      "无需ck直接运行版本"
+    ],
+    "mapping": {
+      "无需ck直接运行版本": {
+        "url": "https://raw.githubusercontent.com/JamesAlaHZS/TB_11/main/shortcuts/TB_11_赛车任务.shortcut"
+      },
+      "ala 使用说明": {
+        "url": "https://github.com/JamesAlaHZS/TB_11#readme"
+      },
+      "1111超级红包": {
+        "url": "taobao://m.tb.cn/h.j3VpHkQ"
+      },
+      "点我更新到新版本": {
+        "url": "https://github.com/JamesAlaHZS/TB_11/tree/main/shortcuts"
+      },
+      "点我快速去登录页面web版": {
+        "url": "https://login.m.taobao.com/login.htm?redirectURL=https://main.m.taobao.com/mytaobao/index.html"
+      },
+      "点我快速抓去抓ck页面": {
+        "url": "tbopen://m.taobao.com/tbopen/index.html?h5Url=https%3A%2F%2Fmain.m.taobao.com%2Fmytaobao%2Findex.html"
+      },
+      "点我看视频教程": {
+        "url": "https://mp.weixin.qq.com/s/VV7uzaFJjPQPxdZFyoGoiA"
+      },
+      "运行任务-持久化模式": {
+        "type": "runList",
+        "value": "1"
+      },
+      "添加或删除ck持久化账号": {
+        "list": [
+          "添加持久化账号-可添加多个",
+          "删除全部账号"
+        ],
+        "mapping": {
+          "添加持久化账号-可添加多个": {
+            "type": "shoudong",
+            "value": "1"
+          },
+          "删除全部账号": {
+            "type": "delck",
+            "value": "1"
+          }
+        }
+      },
+      "免登录获取CK图文教程": {
+        "type": "jiaocheng",
+        "value": "1"
+      },
+      "开始任务": {
+        "type": "task",
+        "key": [
+          "种树"
+        ]
+      },
+      "红包能量任务入口": {
+        "list": [
+          "超级红包入口",
+          "购物车红包入口"
+        ],
+        "mapping": {
+          "超级红包入口": {
+            "url": "taobao://m.tb.cn/h.j3VpHkQ"
+          },
+          "购物车红包入口": {
+            "url": "taobao://m.tb.cn/h.jdw2ebh"
+          }
+        }
+      },
+      "ala 交流群 1095180136": {
+        "list": [
+          "交流·反馈 1095180136",
+          "双十一交流 1095180136"
+        ],
+        "mapping": {
+          "交流·反馈 1095180136": {
+            "url": "mqqapi://card/show_pslcard?src_type=internal&version=1&uin=1095180136&card_type=group&source=qrcode"
+          },
+          "双十一交流 1095180136": {
+            "url": "mqqapi://card/show_pslcard?src_type=internal&version=1&uin=1095180136&card_type=group&source=qrcode"
+          }
+        }
+      },
+      "TG-ala 红包入口": {
+        "url": "taobao://m.tb.cn/h.j3VpHkQ"
+      },
+      "TG-ala 活动入口": {
+        "type": "urlarr",
+        "arr": [
+          "taobao://m.tb.cn/h.j3VpHkQ"
+        ],
+        "wait": 5,
+        "endpage": "taobao://m.tb.cn/h.j3VpHkQ"
+      },
+      "ala 交流群": {
+        "url": "mqqapi://card/show_pslcard?src_type=internal&version=1&uin=1095180136&card_type=group&source=qrcode"
+      },
+      "运行任务-手动填ck运行": {
+        "tip": "cookie模式是用自己的数据跑任务\n优点是过风险检测\n-----------------------\n不会取cookie的点下面的获取cookie\n-----------------------\n使用cookie模式请确保下载捷径的途径是安全的\n-----------------------\n 快速去页面APP版本无需登录 \n-----------------------\n",
+        "list": [
+          "填写COOKIE开始运行"
+        ],
+        "mapping": {
+          "运行正常模式，支持多账号": {
+            "type": "task",
+            "key": [
+              "种树"
+            ]
+          },
+          "填写COOKIE开始运行": {
+            "type": "cookie"
+          },
+          "取cookie教程": {
+            "type": "jiaocheng",
+            "value": "1"
+          },
+          "点我快速去登录页面web版": {
+            "url": "https://login.m.taobao.com/login.htm?redirectURL=https://main.m.taobao.com/mytaobao/index.html"
+          },
+          "点我快速抓去页面APP版": {
+            "url": "tbopen://m.taobao.com/tbopen/index.html?h5Url=https%3A%2F%2Fmain.m.taobao.com%2Fmytaobao%2Findex.html"
+          }
+        }
+      }
+    },
+    "taskList": [
+      "种树"
+    ]
+  },
+  "taskData": {
+    "tag": "tm1111",
+    "common": {
+      "url": "https://raw.githubusercontent.com/JamesAlaHZS/TB_11/main/scripts/ck-common.js",
+      "c": "https://raw.githubusercontent.com/JamesAlaHZS/TB_11/main/scripts/ck-racing.js",
+      "a": "https://raw.githubusercontent.com/JamesAlaHZS/TB_11/main/scripts/ck-android.js"
+    },
+    "种树": {
+      "type": "task1",
+      "endpage": "taobao://m.taobao.com/tbopen/index.html?h5Url=https://m.tb.cn/h.j3VpHkQ",
+      "main": "taobao://m.taobao.com/tbopen/index.html?h5Url=https%3A%2F%2Fm.taobao.com",
+      "endMessage": "种树任务结束",
+      "task": {
+        "tag": "tm1111",
+        "scheme": "taobao://m.taobao.com/tbopen/index.html?h5Url=",
+        "adurl": "://market.m.taobao.com/app/tbsearchwireless-pages/tao-gold-srp-task-pop/index?sceneId=8917&q=iphone",
+        "ckurl": "://pages-fast.m.taobao.com/wow/z/tmtjb/town/home?x-ssr=true&disableNav=YES&pha_h5=true&pha_nav=true&uniapp_id=1011525&uniapp_page=home&hd_from=tmnc26618&prismChannel=poplayer&sceneId=8917&hd_from_id=100260",
+        "ckitemUrl": "://商品定位.m.tmall.com?deliveryId=占位参数1&sceneId=8917&hd_from_id=100260&implId=占位参数2",
+        "wait": 23,
+        "wait2": "",
+        "param": {
+          "商品定位": [
+            "nike",
+            "anta",
+            "dior",
+            "biotherm",
+            "oppo"
+          ]
+        },
+        "before": [],
+        "ckItem": [],
+        "outItem": [
+          "107021",
+          "106619",
+          "99667",
+          "99655",
+          "91224",
+          "101222",
+          "99653",
+          "99662",
+          "90782",
+          "101121",
+          "100531",
+          "90900"
+        ],
+        "item": []
+      }
+    }
+  },
+  "tbck": {
+    "script": "1",
+    "_m_h5_tk": "",
+    "_m_h5_tk_enc": ""
+  },
+  "urlArr": []
+}

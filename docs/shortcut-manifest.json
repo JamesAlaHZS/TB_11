@@ -1,0 +1,24 @@
+[
+  {
+    "file": "天猫双十一CK赛车-ala.shortcut",
+    "bytes": 41431,
+    "sha256": "6741f0d786c3412a6f1edca18722bf80dd3bf9a429bad696c6c9e88d8c1c86ec",
+    "actions": 277,
+    "signature_verified": true,
+    "device_import_tested": false,
+    "client_metadata_changes": [
+      "$.WFWorkflowClientVersion"
+    ]
+  },
+  {
+    "file": "双十一中国行ck模式-ala.shortcut",
+    "bytes": 41424,
+    "sha256": "5eda24683cd24c065056452bb58c9b4637728f39a053a1b2952c3c3eb6af2753",
+    "actions": 277,
+    "signature_verified": true,
+    "device_import_tested": false,
+    "client_metadata_changes": [
+      "$.WFWorkflowClientVersion"
+    ]
+  }
+]

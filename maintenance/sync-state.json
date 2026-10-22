@@ -1,0 +1,28 @@
+{
+  "resources": {
+    "config/ck-racing.json": {
+      "source_sha256": "bd39559ea45343ab7a506d9dedd8b7567a46b6833d26cc333556c262ad8de13a",
+      "sanitized_sha256": "f240dfb9d30fa78877ae571e84e78ce211a5d11425d6a772e024304e05133a9c"
+    },
+    "config/ck-china.json": {
+      "source_sha256": "ead0f2049bd9cba33d47455b984c0c9dabb1dcee8670a1d31d0ad431284ff6af",
+      "sanitized_sha256": "af67dc59e37c554995eb93aed8f15e6c93a33dac9c1ca9d20f4bf063faf90f3e"
+    },
+    "scripts/ck-common.js": {
+      "source_sha256": "22fa16142ce2386f399bc3ed26f97562d879e7060b3dc8abbb4b735d9e1c629c",
+      "sanitized_sha256": "abe7d5f84d3975b28f65912bbda16206559a442b375a059f9da18b6db7ca4a37"
+    },
+    "scripts/ck-racing.js": {
+      "source_sha256": "06099c1c121969d7289b69779d0aeabd7507a8db8b788011e8e7349752df3472",
+      "sanitized_sha256": "90fed23cb9d7d93c0271b0a7d6357e4062b1159ae2f6a6e0e79fc80b8f8c8113"
+    },
+    "scripts/ck-china.js": {
+      "source_sha256": "efb1c5ace640795e0c67999a7675de0e3c74357e4ee46c381ace6105cf713f18",
+      "sanitized_sha256": "7fb9a38c0c507987cc62a3f481f213293d16e7bf6200f3f215dddcfad4d0d3c8"
+    },
+    "scripts/ck-android.js": {
+      "source_sha256": "e1cc9b2758610f261632bbce5727fad3148f4850b9a86182df27c85ac349e2d1",
+      "sanitized_sha256": "8b70ac67ccea42cf6261e5ab7d96aab922205e1578e81ae5f8eae5c74675f1a8"
+    }
+  }
+}
