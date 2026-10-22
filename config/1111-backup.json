@@ -24,7 +24,7 @@
   "taskData": {
     "tag": "zhuanhuafei",
     "common": {
-      "url": "https://raw.githubusercontent.com/JamesAlaHZS/TB_11/main/scripts/mtbjs.js"
+      "url": "https://raw.githubusercontent.com/JamesAlaHZS/TB_11/main/scripts/mtbjs_v2.js"
     },
     "赚话费": {
       "type": "task1",
