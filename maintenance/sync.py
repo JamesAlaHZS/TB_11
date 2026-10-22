@@ -1,8 +1,9 @@
 """Fetch known upstream resources, sanitize, validate everything, then update the mirror."""
-import argparse, base64, concurrent.futures, hashlib, json, os, re, subprocess
+import argparse, base64, concurrent.futures, hashlib, json, os, re, subprocess, time
 from datetime import datetime, timezone
 from pathlib import Path
 from urllib.request import Request, urlopen
+from urllib.error import HTTPError, URLError
 
 ROOT = Path(__file__).resolve().parents[1]
 POLICY = json.loads((ROOT/'maintenance/policy.json').read_text(encoding='utf8'))
@@ -97,9 +98,16 @@ def suspicious(s):
 
 def network_text(url):
     request=Request(url,headers={'User-Agent':'TB11-ala-resource-sync/1.0','Cache-Control':'no-cache'})
-    with urlopen(request,timeout=35) as r:
-        if r.status!=200:raise ValueError('Unexpected HTTP status')
-        raw=r.read(1024*1024+1)
+    for attempt in range(3):
+        try:
+            with urlopen(request,timeout=35) as r:
+                if r.status!=200:raise ValueError('Unexpected HTTP status')
+                raw=r.read(1024*1024+1)
+            break
+        except (HTTPError,URLError,TimeoutError) as error:
+            if isinstance(error,HTTPError) and error.code not in [418,429,500,502,503,504]:raise
+            if attempt==2:raise
+            time.sleep([3,10][attempt])
     if len(raw)>1024*1024:raise ValueError('Upstream resource too large')
     return raw.decode('utf-8-sig')
 
@@ -111,7 +119,7 @@ def run(snapshot=None,initialize=False,check=False):
                 return Path(snapshot).parent.joinpath('originals',str(index)+'.config.raw').read_text(encoding='utf-8-sig')
             return (Path(snapshot)/r['source']).read_text(encoding='utf-8-sig')
         return network_text(POLICY['upstream_base']+r['source'])
-    with concurrent.futures.ThreadPoolExecutor(max_workers=6) as pool:
+    with concurrent.futures.ThreadPoolExecutor(max_workers=2) as pool:
         sources=list(pool.map(fetch,POLICY['resources']))
     baseline_path=ROOT/'maintenance/baseline.json'
     baseline={} if initialize else json.loads(baseline_path.read_text(encoding='utf8'))
