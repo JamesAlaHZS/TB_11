@@ -1,24 +1,28 @@
-# TB_11
+# TB_11 v2
 
-Public static configuration for the Taobao Double 11 Shortcuts workflow.
+by ala — 仅供学习交流使用。
 
-## Current mobile campaign
-- Campaign: 双11超级红包 (wireless/mobile).
-- Taobao mobile short link: `https://m.tb.cn/h.jduXz45`.
-- Wireless link shown by Taobao Alliance: `https://s.click.taobao.com/OpBavOi`.
-- The workflow uses the mobile short code `jduXz45` in the existing `taobao://m.tb.cn/h.` scheme.
-- Taobao Alliance UI stated that short links are valid for 300 days and full TaoKouling for 30 days; regenerate after expiry.
+## 当前无线端推广入口
+- 活动：双11超级红包（无线端）。
+- 手机淘宝短链：`https://m.tb.cn/h.jduXz45`
+- 淘宝联盟无线端链接：`https://s.click.taobao.com/OpBavOi`
+- 快捷指令中使用的 scheme：`taobao://m.tb.cn/h.jduXz45`
 
-## Files
-- `config/1111.json` — primary config.
-- `scripts/tb.txt` — primary task builder.
-- `config/1111-backup.json` — alternate config.
-- `scripts/mtbjs.js` — alternate task builder, migrated from the inspected Tencent response.
+## v2 配置与脚本
+- 主配置：`config/1111.json`
+- 主脚本：`scripts/tb_v2.txt`
+- 备用配置：`config/1111-backup.json`
+- 备用脚本：`scripts/mtbjs_v2.js`
 
-## Raw URLs
-- Main config: `https://raw.githubusercontent.com/JamesAlaHZS/TB_11/main/config/1111.json`
-- Main script: `https://raw.githubusercontent.com/JamesAlaHZS/TB_11/main/scripts/tb.txt`
-- Backup config: `https://raw.githubusercontent.com/JamesAlaHZS/TB_11/main/config/1111-backup.json`
-- Backup script: `https://raw.githubusercontent.com/JamesAlaHZS/TB_11/main/scripts/mtbjs.js`
+## Raw 地址
+- 主配置：`https://raw.githubusercontent.com/JamesAlaHZS/TB_11/main/config/1111.json`
+- 主脚本：`https://raw.githubusercontent.com/JamesAlaHZS/TB_11/main/scripts/tb_v2.txt`
+- 备用配置：`https://raw.githubusercontent.com/JamesAlaHZS/TB_11/main/config/1111-backup.json`
+- 备用脚本：`https://raw.githubusercontent.com/JamesAlaHZS/TB_11/main/scripts/mtbjs_v2.js`
 
-The backup is on the same GitHub host and is not independent disaster recovery. No credentials or tokens should be stored here. Check Taobao Alliance rules and test the generated links on a device before use.
+## 说明
+- v2 快捷指令只引用本仓库的主配置与备用配置；配置中的脚本地址也统一指向 v2 文件。
+- 备用配置与主配置托管在同一个 GitHub 仓库，不属于独立灾备。
+- 本仓库为公开仓库，不要放置 Cookie、密码、访问令牌或其他敏感数据。
+- 淘宝短链/淘口令有有效期；链接失效时请从淘宝联盟重新生成并同步更新配置。
+- 请遵守淘宝联盟和淘宝活动规则，使用前在手机淘宝中手动验证链接目标和推广归因。
