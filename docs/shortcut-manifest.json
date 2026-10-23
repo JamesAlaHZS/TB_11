@@ -1,20 +1,22 @@
 [
   {
     "file": "天猫双十一CK赛车-ala.shortcut",
-    "versioned_file": "天猫双十一CK赛车-ala-v6.shortcut",
-    "version": "direct-v6",
-    "actions": 311,
-    "sha256": "5f19dcabe0a6d18dcbdaa194f1c4a4185ac0e38b5f01261f4fbbca6bbcd2790f",
+    "versioned_file": "天猫双十一CK赛车-ala-v7.shortcut",
+    "version": "baseline-v7",
+    "actions": 294,
+    "sha256": "2865fb6f80b7ed020fb3e9b29d6f4bb67f77f69e5a4cce9fb31825a39506c15b",
     "signature_verified": true,
-    "device_import_tested": false
+    "device_import_tested": false,
+    "originalExecutionRestored": true
   },
   {
     "file": "双十一中国行ck模式-ala.shortcut",
-    "versioned_file": "双十一中国行ck模式-ala-v6.shortcut",
-    "version": "direct-v6",
-    "actions": 311,
-    "sha256": "5bad13cdc8e2e1916ca5fdebcca996ac017696db88e36aa1319e79fa149ee8ee",
+    "versioned_file": "双十一中国行ck模式-ala-v7.shortcut",
+    "version": "baseline-v7",
+    "actions": 294,
+    "sha256": "0ad977d8f10560386178065b4e5e4481c6ab6d64611ce3089ca2af073cc1e8e9",
     "signature_verified": true,
-    "device_import_tested": false
+    "device_import_tested": false,
+    "originalExecutionRestored": true
   }
 ]

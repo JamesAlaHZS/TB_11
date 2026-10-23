@@ -1,0 +1,106 @@
+[
+  {
+    "file": "天猫双十一CK赛车",
+    "source_actions": 279,
+    "final_actions": 294,
+    "allowed_changes": [
+      {
+        "index": 0,
+        "scope": "retain ala identity"
+      },
+      {
+        "index": 1,
+        "scope": "retain existing own configuration URL and metadata"
+      },
+      {
+        "index": 64,
+        "scope": "file location binding only"
+      },
+      {
+        "index": 65,
+        "scope": "file location binding only"
+      },
+      {
+        "index": 145,
+        "scope": "direct existing-account file reader"
+      },
+      {
+        "index": 147,
+        "scope": "file location binding only"
+      },
+      {
+        "index": 148,
+        "scope": "file location binding only"
+      },
+      {
+        "index": 159,
+        "scope": "file location binding only"
+      },
+      {
+        "index": 166,
+        "scope": "direct existing-account file reader"
+      },
+      {
+        "index": 272,
+        "scope": "file location binding only"
+      },
+      {
+        "index": 277,
+        "scope": "unmatched trailing author menu fragment removed"
+      },
+      {
+        "index": 278,
+        "scope": "unmatched trailing author menu fragment removed"
+      }
+    ],
+    "original_account_and_task_actions_exactly_preserved": true
+  },
+  {
+    "file": "双十一中国行ck模式",
+    "source_actions": 277,
+    "final_actions": 294,
+    "allowed_changes": [
+      {
+        "index": 0,
+        "scope": "retain ala identity"
+      },
+      {
+        "index": 1,
+        "scope": "retain existing own configuration URL and metadata"
+      },
+      {
+        "index": 64,
+        "scope": "file location binding only"
+      },
+      {
+        "index": 65,
+        "scope": "file location binding only"
+      },
+      {
+        "index": 145,
+        "scope": "direct existing-account file reader"
+      },
+      {
+        "index": 147,
+        "scope": "file location binding only"
+      },
+      {
+        "index": 148,
+        "scope": "file location binding only"
+      },
+      {
+        "index": 159,
+        "scope": "file location binding only"
+      },
+      {
+        "index": 166,
+        "scope": "direct existing-account file reader"
+      },
+      {
+        "index": 272,
+        "scope": "file location binding only"
+      }
+    ],
+    "original_account_and_task_actions_exactly_preserved": true
+  }
+]
