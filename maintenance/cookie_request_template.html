@@ -1,0 +1,77 @@
+<!DOCTYPE html><html><head><meta charset="utf-8"></head><body><script>
+/* Local normalization only: no network, no storage, no credential logging. */
+function normalizeCookieInput(input) {
+  let value=input;
+  for (let depth=0;depth<6;depth++) {
+    if (typeof value==='string') {
+      value=value.replace(/^\uFEFF/,'').trim();
+      if (!value) throw new Error('COOKIE_EMPTY');
+      if (/^[\[{"]/.test(value)) {
+        try { value=JSON.parse(value); continue; } catch (_) { throw new Error('COOKIE_FORMAT'); }
+      }
+      const header=value.match(/(?:^|\r?\n)Cookie:\s*([^\r\n]+)/i);
+      if (header) value=header[1].trim();
+      if (/[\r\n]/.test(value)) throw new Error('COOKIE_FORMAT');
+      const pairs=parseCookiePairs(value);
+      if (!pairs._m_h5_tk) throw new Error('COOKIE_TOKEN_MISSING');
+      return value;
+    }
+    if (Array.isArray(value)) {
+      if(value.length!==1) throw new Error('COOKIE_ACCOUNT_SELECTION');
+      value=value[0];continue;
+    }
+    if(value && typeof value==='object') {
+      if(Object.prototype.hasOwnProperty.call(value,'cookie')) {value=value.cookie;continue;}
+      const keys=Object.keys(value);
+      if(keys.length!==1) throw new Error('COOKIE_ACCOUNT_SELECTION');
+      if(['__proto__','constructor','prototype'].includes(keys[0])) throw new Error('COOKIE_FORMAT');
+      value=value[keys[0]];continue;
+    }
+    throw new Error('COOKIE_FORMAT');
+  }
+  throw new Error('COOKIE_FORMAT');
+}
+function parseCookiePairs(cookie) {
+  const pairs=Object.create(null);
+  for(const segment of cookie.split(';')) {
+    const index=segment.indexOf('=');
+    if(index<1) continue;
+    const key=segment.slice(0,index).trim();
+    if(key) pairs[key]=segment.slice(index+1).trim();
+  }
+  return pairs;
+}
+function mergeRefreshedCookie(cookie,updates) {
+  const pairs=parseCookiePairs(cookie);
+  for(const key of ['_m_h5_tk','_m_h5_tk_enc']) {
+    if(typeof updates[key]==='string' && updates[key]) pairs[key]=updates[key];
+  }
+  return Object.keys(pairs).map(key=>key+'='+pairs[key]).join('; ')+';';
+}
+function cookieErrorMessage(error) {
+  const code=error && error.message;
+  if(code==='COOKIE_EMPTY') return '当前账号的 Cookie 为空，请重新添加账号。';
+  if(code==='COOKIE_TOKEN_MISSING') return '当前 Cookie 缺少 _m_h5_tk，请重新抓取并更新该账号。';
+  if(code==='COOKIE_ACCOUNT_SELECTION') return '当前输入包含多个账号或未选定账号，请先选择一个账号运行。';
+  if(code==='SCRIPT_RESPONSE_FORMAT') return '任务脚本没有返回有效请求数据，请稍后重新运行。';
+  return 'Cookie 数据格式无法识别，请重新选择或更新账号。';
+}
+
+var ALLDATA; var cookies;
+__REMOTE_SCRIPT__
+try {
+  ALLDATA=JSON.parse(decodeURIComponent(escape(atob("__CONFIG__"))));
+  cookies=normalizeCookieInput(decodeURIComponent(escape(atob("__COOKIE__"))));
+  var envelope=run();
+  if(typeof envelope==='string') envelope=JSON.parse(envelope);
+  if(!envelope || envelope.succes!=='ok' || !envelope.data ||
+     typeof envelope.data.ck!=='string' || typeof envelope.data.url!=='string' ||
+     !envelope.data.url.startsWith('https://service-qd1gmnyf-1257225808.sh.apigw.tencentcs.com/release/getUrl?')) {
+    throw new Error('SCRIPT_RESPONSE_FORMAT');
+  }
+  normalizeCookieInput(envelope.data.ck);
+  document.body.textContent=JSON.stringify(envelope);
+} catch(error) {
+  document.body.textContent=JSON.stringify({succes:'error',message:cookieErrorMessage(error),data:{ck:'',url:''}});
+}
+</script></body></html>
