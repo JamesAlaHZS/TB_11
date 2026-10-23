@@ -1,0 +1,1012 @@
+[
+  {
+    "file": "天猫双十一CK赛车-ala.shortcut",
+    "sha256": "3c54b40d542bdf10aadd27c447f603357c152b5888cb373d2ea6ef5bb6c01687",
+    "links": [
+      {
+        "url": {
+          "WFWorkflowActionIdentifier": "is.workflow.actions.url",
+          "WFWorkflowActionParameters": {
+            "WFURLActionURL": {
+              "Value": {
+                "string": "data:text/html;charset=utf-8;base64,￼",
+                "attachmentsByRange": {
+                  "{36, 1}": {
+                    "OutputUUID": "04BE7718-45A3-4F02-918F-F8CC16F55A2A",
+                    "Type": "ActionOutput",
+                    "OutputName": "Base64已编码内容"
+                  }
+                }
+              },
+              "WFSerializationType": "WFTextTokenString"
+            },
+            "UUID": "4717A819-06EC-48A0-97C3-296E5726D8B0"
+          }
+        },
+        "encoder": {
+          "WFWorkflowActionIdentifier": "is.workflow.actions.base64encode",
+          "WFWorkflowActionParameters": {
+            "WFInput": {
+              "Value": {
+                "OutputUUID": "03428FB2-F801-4934-B0D9-37EAF8F8A121",
+                "Type": "ActionOutput",
+                "OutputName": "文本"
+              },
+              "WFSerializationType": "WFTextTokenAttachment"
+            },
+            "WFBase64LineBreakMode": "None",
+            "WFEncodeMode": "Encode",
+            "UUID": "04BE7718-45A3-4F02-918F-F8CC16F55A2A"
+          }
+        },
+        "source": {
+          "WFWorkflowActionIdentifier": "is.workflow.actions.gettext",
+          "WFWorkflowActionParameters": {
+            "WFTextActionText": {
+              "Value": {
+                "string": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"UTF-8\">\n    <title>Title</title>\n</head>\n<body>\n<script>\n\n   str = `￼`\n￼\n  document.write(getCookie2());\n</script>\n</body>\n</html>",
+                "attachmentsByRange": {
+                  "{127, 1}": {
+                    "OutputUUID": "4FA1634F-2DF5-4234-BBE8-F6D574909B8A",
+                    "Type": "ActionOutput",
+                    "OutputName": "匹配"
+                  },
+                  "{130, 1}": {
+                    "OutputUUID": "035D7321-B785-4E1F-BA9D-5C51471ECBD3",
+                    "Type": "ActionOutput",
+                    "OutputName": "文本"
+                  }
+                }
+              },
+              "WFSerializationType": "WFTextTokenString"
+            },
+            "UUID": "03428FB2-F801-4934-B0D9-37EAF8F8A121"
+          }
+        }
+      },
+      {
+        "url": {
+          "WFWorkflowActionIdentifier": "is.workflow.actions.url",
+          "WFWorkflowActionParameters": {
+            "WFURLActionURL": {
+              "Value": {
+                "string": "data:text/html;charset=utf-8;base64,￼",
+                "attachmentsByRange": {
+                  "{36, 1}": {
+                    "OutputUUID": "15E3ED4D-33B3-4EFF-B92E-BE2823A9FCEC",
+                    "Type": "ActionOutput",
+                    "OutputName": "Base64已编码内容"
+                  }
+                }
+              },
+              "WFSerializationType": "WFTextTokenString"
+            },
+            "UUID": "A27C5FA3-9381-4C2A-BD42-8B56E1518620"
+          }
+        },
+        "encoder": {
+          "WFWorkflowActionIdentifier": "is.workflow.actions.base64encode",
+          "WFWorkflowActionParameters": {
+            "WFInput": {
+              "Value": {
+                "OutputUUID": "A9CAAE64-624D-4573-92B9-A82311C72CDA",
+                "Type": "ActionOutput",
+                "OutputName": "文本"
+              },
+              "WFSerializationType": "WFTextTokenAttachment"
+            },
+            "WFBase64LineBreakMode": "None",
+            "WFEncodeMode": "Encode",
+            "UUID": "15E3ED4D-33B3-4EFF-B92E-BE2823A9FCEC"
+          }
+        },
+        "source": {
+          "WFWorkflowActionIdentifier": "is.workflow.actions.gettext",
+          "WFWorkflowActionParameters": {
+            "UUID": "A9CAAE64-624D-4573-92B9-A82311C72CDA",
+            "WFTextActionText": {
+              "Value": {
+                "string": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"UTF-8\">\n    <title>Title</title>\n</head>\n<body>\n<script>\n\n   str = `￼`\n￼\n  document.write(getCookie2());\n</script>\n</body>\n</html>",
+                "attachmentsByRange": {
+                  "{127, 1}": {
+                    "OutputUUID": "25E52CBF-EF84-46DF-A4C4-2AA7F0A2385C",
+                    "Type": "ActionOutput",
+                    "OutputName": "匹配"
+                  },
+                  "{130, 1}": {
+                    "OutputUUID": "8F719E29-0609-4076-A40F-E2811606E39E",
+                    "Type": "ActionOutput",
+                    "OutputName": "文本"
+                  }
+                }
+              },
+              "WFSerializationType": "WFTextTokenString"
+            }
+          }
+        }
+      },
+      {
+        "url": {
+          "WFWorkflowActionIdentifier": "is.workflow.actions.url",
+          "WFWorkflowActionParameters": {
+            "WFURLActionURL": {
+              "Value": {
+                "string": "data:text/html;charset=utf-8;base64,￼",
+                "attachmentsByRange": {
+                  "{36, 1}": {
+                    "OutputUUID": "FE90D8F5-550A-4C53-9EE2-9D1A640C4CB1",
+                    "Type": "ActionOutput",
+                    "OutputName": "Base64已编码内容"
+                  }
+                }
+              },
+              "WFSerializationType": "WFTextTokenString"
+            },
+            "UUID": "2851988A-6851-40FF-9FDC-2FA69F620BF3"
+          }
+        },
+        "encoder": {
+          "WFWorkflowActionIdentifier": "is.workflow.actions.base64encode",
+          "WFWorkflowActionParameters": {
+            "WFInput": {
+              "Value": {
+                "OutputUUID": "C985C8C0-AAEE-461A-9248-38BEBD1B766A",
+                "Type": "ActionOutput",
+                "OutputName": "文本"
+              },
+              "WFSerializationType": "WFTextTokenAttachment"
+            },
+            "WFBase64LineBreakMode": "None",
+            "WFEncodeMode": "Encode",
+            "UUID": "FE90D8F5-550A-4C53-9EE2-9D1A640C4CB1"
+          }
+        },
+        "source": {
+          "WFWorkflowActionIdentifier": "is.workflow.actions.gettext",
+          "WFWorkflowActionParameters": {
+            "WFTextActionText": {
+              "Value": {
+                "string": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"UTF-8\">\n    <title>Title</title>\n</head>\n<body>\n<script>\n\n\n\n   cookie = `￼`\n   \n   ￼\n\n  document.write(run());\n</script>\n</body>\n</html>",
+                "attachmentsByRange": {
+                  "{132, 1}": {
+                    "VariableName": "COOKIE",
+                    "Type": "Variable"
+                  },
+                  "{142, 1}": {
+                    "OutputUUID": "076CF15C-A656-4D02-AD1D-93423F033353",
+                    "Type": "ActionOutput",
+                    "OutputName": "文本"
+                  }
+                }
+              },
+              "WFSerializationType": "WFTextTokenString"
+            },
+            "UUID": "C985C8C0-AAEE-461A-9248-38BEBD1B766A"
+          }
+        }
+      },
+      {
+        "url": {
+          "WFWorkflowActionIdentifier": "is.workflow.actions.url",
+          "WFWorkflowActionParameters": {
+            "WFURLActionURL": {
+              "Value": {
+                "string": "data:text/html;charset=utf-8;base64,￼",
+                "attachmentsByRange": {
+                  "{36, 1}": {
+                    "OutputUUID": "9DE7BB5C-A50D-4428-8A9E-69168BDDAD2A",
+                    "Type": "ActionOutput",
+                    "OutputName": "Base64已编码内容"
+                  }
+                }
+              },
+              "WFSerializationType": "WFTextTokenString"
+            },
+            "UUID": "4D40619A-964D-4549-A150-EC9923406084"
+          }
+        },
+        "encoder": {
+          "WFWorkflowActionIdentifier": "is.workflow.actions.base64encode",
+          "WFWorkflowActionParameters": {
+            "WFInput": {
+              "Value": {
+                "OutputUUID": "DBC83126-2486-4F9C-9A70-F0D43DCF6B8E",
+                "Type": "ActionOutput",
+                "OutputName": "文本"
+              },
+              "WFSerializationType": "WFTextTokenAttachment"
+            },
+            "WFBase64LineBreakMode": "None",
+            "WFEncodeMode": "Encode",
+            "UUID": "9DE7BB5C-A50D-4428-8A9E-69168BDDAD2A"
+          }
+        },
+        "source": {
+          "WFWorkflowActionIdentifier": "is.workflow.actions.gettext",
+          "WFWorkflowActionParameters": {
+            "WFTextActionText": {
+              "Value": {
+                "string": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"UTF-8\">\n    <title>Title</title>\n</head>\n<body>\n<script>\n\n\n\n   data = ￼\n   resData = ￼\n   \n   ￼\n\n  document.write(run());\n</script>\n</body>\n</html>",
+                "attachmentsByRange": {
+                  "{129, 1}": {
+                    "VariableName": "nameAndCk",
+                    "Type": "Variable"
+                  },
+                  "{144, 1}": {
+                    "VariableName": "resData",
+                    "Type": "Variable"
+                  },
+                  "{153, 1}": {
+                    "OutputUUID": "F5AF91B5-0741-4547-B19A-0368B2BB826E",
+                    "Type": "ActionOutput",
+                    "OutputName": "文本"
+                  }
+                }
+              },
+              "WFSerializationType": "WFTextTokenString"
+            },
+            "UUID": "DBC83126-2486-4F9C-9A70-F0D43DCF6B8E"
+          }
+        }
+      },
+      {
+        "url": {
+          "WFWorkflowActionIdentifier": "is.workflow.actions.url",
+          "WFWorkflowActionParameters": {
+            "WFURLActionURL": {
+              "Value": {
+                "string": "data:text/html;charset=utf-8;base64,￼",
+                "attachmentsByRange": {
+                  "{36, 1}": {
+                    "OutputUUID": "B380C46A-38C3-432A-9D33-4641BD61D93B",
+                    "Type": "ActionOutput",
+                    "OutputName": "Base64已编码内容"
+                  }
+                }
+              },
+              "WFSerializationType": "WFTextTokenString"
+            },
+            "UUID": "A7B3C997-40B1-405E-99BB-B400872F3072"
+          }
+        },
+        "encoder": {
+          "WFWorkflowActionIdentifier": "is.workflow.actions.base64encode",
+          "WFWorkflowActionParameters": {
+            "WFInput": {
+              "Value": {
+                "OutputUUID": "147441A2-0C67-4BB4-A19D-F0F574BE7B66",
+                "Type": "ActionOutput",
+                "OutputName": "文本"
+              },
+              "WFSerializationType": "WFTextTokenAttachment"
+            },
+            "WFBase64LineBreakMode": "None",
+            "WFEncodeMode": "Encode",
+            "UUID": "B380C46A-38C3-432A-9D33-4641BD61D93B"
+          }
+        },
+        "source": {
+          "WFWorkflowActionIdentifier": "is.workflow.actions.gettext",
+          "WFWorkflowActionParameters": {
+            "WFTextActionText": {
+              "Value": {
+                "string": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"UTF-8\">\n    <title>Title</title>\n</head>\n<body>\n<script>\n\n\n\n   data = ￼\n   \n   \n   ￼\n\n  document.write(run());\n</script>\n</body>\n</html>",
+                "attachmentsByRange": {
+                  "{129, 1}": {
+                    "VariableName": "account",
+                    "Type": "Variable"
+                  },
+                  "{142, 1}": {
+                    "OutputUUID": "EECE7862-DD5F-4759-B153-5544D68A0177",
+                    "Type": "ActionOutput",
+                    "OutputName": "文本"
+                  }
+                }
+              },
+              "WFSerializationType": "WFTextTokenString"
+            },
+            "UUID": "147441A2-0C67-4BB4-A19D-F0F574BE7B66"
+          }
+        }
+      },
+      {
+        "url": {
+          "WFWorkflowActionIdentifier": "is.workflow.actions.url",
+          "WFWorkflowActionParameters": {
+            "WFURLActionURL": {
+              "Value": {
+                "string": "data:text/html;charset=utf-8;base64,￼",
+                "attachmentsByRange": {
+                  "{36, 1}": {
+                    "OutputUUID": "B8544E49-7E32-4C7E-9888-8293E5F41CAE",
+                    "Type": "ActionOutput",
+                    "OutputName": "Base64已编码内容"
+                  }
+                }
+              },
+              "WFSerializationType": "WFTextTokenString"
+            },
+            "UUID": "E44D09EB-A16E-4EBE-8CBA-A7ABDAED0226"
+          }
+        },
+        "encoder": {
+          "WFWorkflowActionIdentifier": "is.workflow.actions.base64encode",
+          "WFWorkflowActionParameters": {
+            "WFInput": {
+              "Value": {
+                "OutputUUID": "19D37812-CD24-4AEC-A560-BBCA2DA02E46",
+                "Type": "ActionOutput",
+                "OutputName": "getCookie"
+              },
+              "WFSerializationType": "WFTextTokenAttachment"
+            },
+            "WFBase64LineBreakMode": "None",
+            "WFEncodeMode": "Encode",
+            "UUID": "B8544E49-7E32-4C7E-9888-8293E5F41CAE"
+          }
+        },
+        "source": {
+          "WFWorkflowActionIdentifier": "is.workflow.actions.gettext",
+          "WFWorkflowActionParameters": {
+            "WFTextActionText": {
+              "Value": {
+                "string": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"UTF-8\">\n    <title>Title</title>\n</head>\n<body>\n<script>\n\nALLDATA = ￼\n   cookies =  `￼`\n   ￼\n\n  document.write(run());\n</script>\n</body>\n</html>",
+                "attachmentsByRange": {
+                  "{127, 1}": {
+                    "VariableName": "__DATA__",
+                    "Type": "Variable"
+                  },
+                  "{144, 1}": {
+                    "VariableName": "nowCookie",
+                    "Type": "Variable"
+                  },
+                  "{150, 1}": {
+                    "OutputUUID": "8339E4B8-B7A6-4BA9-801C-B06E03518987",
+                    "Type": "ActionOutput",
+                    "OutputName": "文本"
+                  }
+                }
+              },
+              "WFSerializationType": "WFTextTokenString"
+            },
+            "CustomOutputName": "getCookie",
+            "UUID": "19D37812-CD24-4AEC-A560-BBCA2DA02E46"
+          }
+        }
+      },
+      {
+        "url": {
+          "WFWorkflowActionIdentifier": "is.workflow.actions.url",
+          "WFWorkflowActionParameters": {
+            "WFURLActionURL": {
+              "Value": {
+                "string": "data:text/html;charset=utf-8;base64,￼",
+                "attachmentsByRange": {
+                  "{36, 1}": {
+                    "OutputUUID": "470726BD-350B-4ABF-920F-B0334F747EBE",
+                    "Type": "ActionOutput",
+                    "OutputName": "Base64已编码内容"
+                  }
+                }
+              },
+              "WFSerializationType": "WFTextTokenString"
+            },
+            "UUID": "1D341CC4-43BD-4B39-96C7-7EA77EC8B116"
+          }
+        },
+        "encoder": {
+          "WFWorkflowActionIdentifier": "is.workflow.actions.base64encode",
+          "WFWorkflowActionParameters": {
+            "WFInput": {
+              "Value": {
+                "OutputUUID": "C1E1D436-314A-4CD4-8B50-5BB25DBB3518",
+                "Type": "ActionOutput",
+                "OutputName": "文本"
+              },
+              "WFSerializationType": "WFTextTokenAttachment"
+            },
+            "WFBase64LineBreakMode": "None",
+            "WFEncodeMode": "Encode",
+            "UUID": "470726BD-350B-4ABF-920F-B0334F747EBE"
+          }
+        },
+        "source": {
+          "WFWorkflowActionIdentifier": "is.workflow.actions.gettext",
+          "WFWorkflowActionParameters": {
+            "WFTextActionText": {
+              "Value": {
+                "string": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"UTF-8\">\n    <title>Title</title>\n</head>\n<body>\n<script>\n   item = ￼\n\n  tbRes = ￼\n   function getList (){\n   if(!tbRes){\n   tbRes = []\n}\ntbRes.push(item)\nreturn JSON.stringify(tbRes\n)\n}\n  document.write(getList());\n</script>\n</body>\n</html>",
+                "attachmentsByRange": {
+                  "{126, 1}": {
+                    "OutputUUID": "F61B1733-53BE-4B15-AEE8-EFB7829A3B13",
+                    "Type": "ActionOutput",
+                    "OutputName": "词典"
+                  },
+                  "{139, 1}": {
+                    "VariableName": "tbRes",
+                    "Type": "Variable"
+                  }
+                }
+              },
+              "WFSerializationType": "WFTextTokenString"
+            },
+            "UUID": "C1E1D436-314A-4CD4-8B50-5BB25DBB3518"
+          }
+        }
+      },
+      {
+        "url": {
+          "WFWorkflowActionIdentifier": "is.workflow.actions.url",
+          "WFWorkflowActionParameters": {
+            "WFURLActionURL": {
+              "Value": {
+                "string": "data:text/html;charset=utf-8;base64,￼",
+                "attachmentsByRange": {
+                  "{36, 1}": {
+                    "OutputUUID": "0722D933-CB74-4628-B036-5DA3070DCB4A",
+                    "Type": "ActionOutput",
+                    "OutputName": "Base64已编码内容"
+                  }
+                }
+              },
+              "WFSerializationType": "WFTextTokenString"
+            },
+            "UUID": "24F9B75D-0B76-42B4-A470-BE11144AEABD"
+          }
+        },
+        "encoder": {
+          "WFWorkflowActionIdentifier": "is.workflow.actions.base64encode",
+          "WFWorkflowActionParameters": {
+            "WFInput": {
+              "Value": {
+                "OutputUUID": "765D9AD5-5E60-4C66-8427-C51D334FB719",
+                "Type": "ActionOutput",
+                "OutputName": "文本"
+              },
+              "WFSerializationType": "WFTextTokenAttachment"
+            },
+            "WFBase64LineBreakMode": "None",
+            "WFEncodeMode": "Encode",
+            "UUID": "0722D933-CB74-4628-B036-5DA3070DCB4A"
+          }
+        },
+        "source": {
+          "WFWorkflowActionIdentifier": "is.workflow.actions.gettext",
+          "WFWorkflowActionParameters": {
+            "WFTextActionText": {
+              "Value": {
+                "string": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"UTF-8\">\n    <title>Title</title>\n</head>\n<body>\n<script>\n\n   ALLDATA = ￼\n\n   DB =  ￼\n   data = ￼\n   ￼\n\n  document.write(runTask());\n</script>\n</body>\n</html>",
+                "attachmentsByRange": {
+                  "{159, 1}": {
+                    "OutputUUID": "38CA1F9D-1DD4-48B1-902F-CA4F679C4EF5",
+                    "Type": "ActionOutput",
+                    "OutputName": "文本"
+                  },
+                  "{130, 1}": {
+                    "VariableName": "__DATA__",
+                    "Type": "Variable"
+                  },
+                  "{142, 1}": {
+                    "VariableName": "DB",
+                    "Type": "Variable"
+                  },
+                  "{154, 1}": {
+                    "VariableName": "tbRes",
+                    "Type": "Variable"
+                  }
+                }
+              },
+              "WFSerializationType": "WFTextTokenString"
+            },
+            "UUID": "765D9AD5-5E60-4C66-8427-C51D334FB719"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "file": "双十一中国行ck模式-ala.shortcut",
+    "sha256": "09befd0a7b3f5ff88f0b1ab7eeccf88626287cde541c360226fd4e72e3abd802",
+    "links": [
+      {
+        "url": {
+          "WFWorkflowActionIdentifier": "is.workflow.actions.url",
+          "WFWorkflowActionParameters": {
+            "WFURLActionURL": {
+              "Value": {
+                "string": "data:text/html;charset=utf-8;base64,￼",
+                "attachmentsByRange": {
+                  "{36, 1}": {
+                    "OutputUUID": "32FDB553-6A42-430E-A891-46730C5194AC",
+                    "Type": "ActionOutput",
+                    "OutputName": "Base64已编码内容"
+                  }
+                }
+              },
+              "WFSerializationType": "WFTextTokenString"
+            },
+            "UUID": "4717A819-06EC-48A0-97C3-296E5726D8B0"
+          }
+        },
+        "encoder": {
+          "WFWorkflowActionIdentifier": "is.workflow.actions.base64encode",
+          "WFWorkflowActionParameters": {
+            "WFInput": {
+              "Value": {
+                "OutputUUID": "03428FB2-F801-4934-B0D9-37EAF8F8A121",
+                "Type": "ActionOutput",
+                "OutputName": "文本"
+              },
+              "WFSerializationType": "WFTextTokenAttachment"
+            },
+            "WFBase64LineBreakMode": "None",
+            "WFEncodeMode": "Encode",
+            "UUID": "32FDB553-6A42-430E-A891-46730C5194AC"
+          }
+        },
+        "source": {
+          "WFWorkflowActionIdentifier": "is.workflow.actions.gettext",
+          "WFWorkflowActionParameters": {
+            "UUID": "03428FB2-F801-4934-B0D9-37EAF8F8A121",
+            "WFTextActionText": {
+              "Value": {
+                "string": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"UTF-8\">\n    <title>Title</title>\n</head>\n<body>\n<script>\n\n   str = `￼`\n￼\n  document.write(getCookie2());\n</script>\n</body>\n</html>",
+                "attachmentsByRange": {
+                  "{127, 1}": {
+                    "OutputUUID": "4FA1634F-2DF5-4234-BBE8-F6D574909B8A",
+                    "Type": "ActionOutput",
+                    "OutputName": "匹配"
+                  },
+                  "{130, 1}": {
+                    "OutputUUID": "035D7321-B785-4E1F-BA9D-5C51471ECBD3",
+                    "Type": "ActionOutput",
+                    "OutputName": "文本"
+                  }
+                }
+              },
+              "WFSerializationType": "WFTextTokenString"
+            }
+          }
+        }
+      },
+      {
+        "url": {
+          "WFWorkflowActionIdentifier": "is.workflow.actions.url",
+          "WFWorkflowActionParameters": {
+            "WFURLActionURL": {
+              "Value": {
+                "string": "data:text/html;charset=utf-8;base64,￼",
+                "attachmentsByRange": {
+                  "{36, 1}": {
+                    "OutputUUID": "5C5BD2BC-4E7E-4AF8-BE53-4A5F137C1102",
+                    "Type": "ActionOutput",
+                    "OutputName": "Base64已编码内容"
+                  }
+                }
+              },
+              "WFSerializationType": "WFTextTokenString"
+            },
+            "UUID": "A27C5FA3-9381-4C2A-BD42-8B56E1518620"
+          }
+        },
+        "encoder": {
+          "WFWorkflowActionIdentifier": "is.workflow.actions.base64encode",
+          "WFWorkflowActionParameters": {
+            "WFInput": {
+              "Value": {
+                "OutputUUID": "A9CAAE64-624D-4573-92B9-A82311C72CDA",
+                "Type": "ActionOutput",
+                "OutputName": "文本"
+              },
+              "WFSerializationType": "WFTextTokenAttachment"
+            },
+            "WFBase64LineBreakMode": "None",
+            "WFEncodeMode": "Encode",
+            "UUID": "5C5BD2BC-4E7E-4AF8-BE53-4A5F137C1102"
+          }
+        },
+        "source": {
+          "WFWorkflowActionIdentifier": "is.workflow.actions.gettext",
+          "WFWorkflowActionParameters": {
+            "WFTextActionText": {
+              "Value": {
+                "string": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"UTF-8\">\n    <title>Title</title>\n</head>\n<body>\n<script>\n\n   str = `￼`\n￼\n  document.write(getCookie2());\n</script>\n</body>\n</html>",
+                "attachmentsByRange": {
+                  "{127, 1}": {
+                    "OutputUUID": "25E52CBF-EF84-46DF-A4C4-2AA7F0A2385C",
+                    "Type": "ActionOutput",
+                    "OutputName": "匹配"
+                  },
+                  "{130, 1}": {
+                    "OutputUUID": "8F719E29-0609-4076-A40F-E2811606E39E",
+                    "Type": "ActionOutput",
+                    "OutputName": "文本"
+                  }
+                }
+              },
+              "WFSerializationType": "WFTextTokenString"
+            },
+            "UUID": "A9CAAE64-624D-4573-92B9-A82311C72CDA"
+          }
+        }
+      },
+      {
+        "url": {
+          "WFWorkflowActionIdentifier": "is.workflow.actions.url",
+          "WFWorkflowActionParameters": {
+            "WFURLActionURL": {
+              "Value": {
+                "string": "data:text/html;charset=utf-8;base64,￼",
+                "attachmentsByRange": {
+                  "{36, 1}": {
+                    "OutputUUID": "40EA760C-9DD3-451B-A141-59E9B7521336",
+                    "Type": "ActionOutput",
+                    "OutputName": "Base64已编码内容"
+                  }
+                }
+              },
+              "WFSerializationType": "WFTextTokenString"
+            },
+            "UUID": "2851988A-6851-40FF-9FDC-2FA69F620BF3"
+          }
+        },
+        "encoder": {
+          "WFWorkflowActionIdentifier": "is.workflow.actions.base64encode",
+          "WFWorkflowActionParameters": {
+            "WFInput": {
+              "Value": {
+                "OutputUUID": "C985C8C0-AAEE-461A-9248-38BEBD1B766A",
+                "Type": "ActionOutput",
+                "OutputName": "文本"
+              },
+              "WFSerializationType": "WFTextTokenAttachment"
+            },
+            "WFBase64LineBreakMode": "None",
+            "WFEncodeMode": "Encode",
+            "UUID": "40EA760C-9DD3-451B-A141-59E9B7521336"
+          }
+        },
+        "source": {
+          "WFWorkflowActionIdentifier": "is.workflow.actions.gettext",
+          "WFWorkflowActionParameters": {
+            "UUID": "C985C8C0-AAEE-461A-9248-38BEBD1B766A",
+            "WFTextActionText": {
+              "Value": {
+                "string": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"UTF-8\">\n    <title>Title</title>\n</head>\n<body>\n<script>\n\n\n\n   cookie = `￼`\n   \n   ￼\n\n  document.write(run());\n</script>\n</body>\n</html>",
+                "attachmentsByRange": {
+                  "{132, 1}": {
+                    "VariableName": "COOKIE",
+                    "Type": "Variable"
+                  },
+                  "{142, 1}": {
+                    "OutputUUID": "076CF15C-A656-4D02-AD1D-93423F033353",
+                    "Type": "ActionOutput",
+                    "OutputName": "文本"
+                  }
+                }
+              },
+              "WFSerializationType": "WFTextTokenString"
+            }
+          }
+        }
+      },
+      {
+        "url": {
+          "WFWorkflowActionIdentifier": "is.workflow.actions.url",
+          "WFWorkflowActionParameters": {
+            "WFURLActionURL": {
+              "Value": {
+                "string": "data:text/html;charset=utf-8;base64,￼",
+                "attachmentsByRange": {
+                  "{36, 1}": {
+                    "OutputUUID": "761DBF45-8341-410F-B9A8-F37B3530FDBF",
+                    "Type": "ActionOutput",
+                    "OutputName": "Base64已编码内容"
+                  }
+                }
+              },
+              "WFSerializationType": "WFTextTokenString"
+            },
+            "UUID": "4D40619A-964D-4549-A150-EC9923406084"
+          }
+        },
+        "encoder": {
+          "WFWorkflowActionIdentifier": "is.workflow.actions.base64encode",
+          "WFWorkflowActionParameters": {
+            "WFInput": {
+              "Value": {
+                "OutputUUID": "DBC83126-2486-4F9C-9A70-F0D43DCF6B8E",
+                "Type": "ActionOutput",
+                "OutputName": "文本"
+              },
+              "WFSerializationType": "WFTextTokenAttachment"
+            },
+            "WFBase64LineBreakMode": "None",
+            "WFEncodeMode": "Encode",
+            "UUID": "761DBF45-8341-410F-B9A8-F37B3530FDBF"
+          }
+        },
+        "source": {
+          "WFWorkflowActionIdentifier": "is.workflow.actions.gettext",
+          "WFWorkflowActionParameters": {
+            "UUID": "DBC83126-2486-4F9C-9A70-F0D43DCF6B8E",
+            "WFTextActionText": {
+              "Value": {
+                "string": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"UTF-8\">\n    <title>Title</title>\n</head>\n<body>\n<script>\n\n\n\n   data = ￼\n   resData = ￼\n   \n   ￼\n\n  document.write(run());\n</script>\n</body>\n</html>",
+                "attachmentsByRange": {
+                  "{129, 1}": {
+                    "VariableName": "nameAndCk",
+                    "Type": "Variable"
+                  },
+                  "{144, 1}": {
+                    "VariableName": "resData",
+                    "Type": "Variable"
+                  },
+                  "{153, 1}": {
+                    "OutputUUID": "F5AF91B5-0741-4547-B19A-0368B2BB826E",
+                    "Type": "ActionOutput",
+                    "OutputName": "文本"
+                  }
+                }
+              },
+              "WFSerializationType": "WFTextTokenString"
+            }
+          }
+        }
+      },
+      {
+        "url": {
+          "WFWorkflowActionIdentifier": "is.workflow.actions.url",
+          "WFWorkflowActionParameters": {
+            "WFURLActionURL": {
+              "Value": {
+                "string": "data:text/html;charset=utf-8;base64,￼",
+                "attachmentsByRange": {
+                  "{36, 1}": {
+                    "OutputUUID": "23C945B4-588F-4016-9D2C-035BB25EC973",
+                    "Type": "ActionOutput",
+                    "OutputName": "Base64已编码内容"
+                  }
+                }
+              },
+              "WFSerializationType": "WFTextTokenString"
+            },
+            "UUID": "A7B3C997-40B1-405E-99BB-B400872F3072"
+          }
+        },
+        "encoder": {
+          "WFWorkflowActionIdentifier": "is.workflow.actions.base64encode",
+          "WFWorkflowActionParameters": {
+            "WFInput": {
+              "Value": {
+                "OutputUUID": "147441A2-0C67-4BB4-A19D-F0F574BE7B66",
+                "Type": "ActionOutput",
+                "OutputName": "文本"
+              },
+              "WFSerializationType": "WFTextTokenAttachment"
+            },
+            "WFBase64LineBreakMode": "None",
+            "WFEncodeMode": "Encode",
+            "UUID": "23C945B4-588F-4016-9D2C-035BB25EC973"
+          }
+        },
+        "source": {
+          "WFWorkflowActionIdentifier": "is.workflow.actions.gettext",
+          "WFWorkflowActionParameters": {
+            "UUID": "147441A2-0C67-4BB4-A19D-F0F574BE7B66",
+            "WFTextActionText": {
+              "Value": {
+                "string": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"UTF-8\">\n    <title>Title</title>\n</head>\n<body>\n<script>\n\n\n\n   data = ￼\n   \n   \n   ￼\n\n  document.write(run());\n</script>\n</body>\n</html>",
+                "attachmentsByRange": {
+                  "{129, 1}": {
+                    "VariableName": "account",
+                    "Type": "Variable"
+                  },
+                  "{142, 1}": {
+                    "OutputUUID": "EECE7862-DD5F-4759-B153-5544D68A0177",
+                    "Type": "ActionOutput",
+                    "OutputName": "文本"
+                  }
+                }
+              },
+              "WFSerializationType": "WFTextTokenString"
+            }
+          }
+        }
+      },
+      {
+        "url": {
+          "WFWorkflowActionIdentifier": "is.workflow.actions.url",
+          "WFWorkflowActionParameters": {
+            "WFURLActionURL": {
+              "Value": {
+                "string": "data:text/html;charset=utf-8;base64,￼",
+                "attachmentsByRange": {
+                  "{36, 1}": {
+                    "OutputUUID": "03518EAF-300F-4EC3-BF53-3DA0995D7F62",
+                    "Type": "ActionOutput",
+                    "OutputName": "Base64已编码内容"
+                  }
+                }
+              },
+              "WFSerializationType": "WFTextTokenString"
+            },
+            "UUID": "E44D09EB-A16E-4EBE-8CBA-A7ABDAED0226"
+          }
+        },
+        "encoder": {
+          "WFWorkflowActionIdentifier": "is.workflow.actions.base64encode",
+          "WFWorkflowActionParameters": {
+            "WFInput": {
+              "Value": {
+                "OutputUUID": "19D37812-CD24-4AEC-A560-BBCA2DA02E46",
+                "Type": "ActionOutput",
+                "OutputName": "getCookie"
+              },
+              "WFSerializationType": "WFTextTokenAttachment"
+            },
+            "WFBase64LineBreakMode": "None",
+            "WFEncodeMode": "Encode",
+            "UUID": "03518EAF-300F-4EC3-BF53-3DA0995D7F62"
+          }
+        },
+        "source": {
+          "WFWorkflowActionIdentifier": "is.workflow.actions.gettext",
+          "WFWorkflowActionParameters": {
+            "UUID": "19D37812-CD24-4AEC-A560-BBCA2DA02E46",
+            "CustomOutputName": "getCookie",
+            "WFTextActionText": {
+              "Value": {
+                "string": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"UTF-8\">\n    <title>Title</title>\n</head>\n<body>\n<script>\n\nALLDATA = ￼\n   cookies =  `￼`\n   ￼\n\n  document.write(run());\n</script>\n</body>\n</html>",
+                "attachmentsByRange": {
+                  "{127, 1}": {
+                    "VariableName": "__DATA__",
+                    "Type": "Variable"
+                  },
+                  "{144, 1}": {
+                    "VariableName": "nowCookie",
+                    "Type": "Variable"
+                  },
+                  "{150, 1}": {
+                    "OutputUUID": "8339E4B8-B7A6-4BA9-801C-B06E03518987",
+                    "Type": "ActionOutput",
+                    "OutputName": "文本"
+                  }
+                }
+              },
+              "WFSerializationType": "WFTextTokenString"
+            }
+          }
+        }
+      },
+      {
+        "url": {
+          "WFWorkflowActionIdentifier": "is.workflow.actions.url",
+          "WFWorkflowActionParameters": {
+            "WFURLActionURL": {
+              "Value": {
+                "string": "data:text/html;charset=utf-8;base64,￼",
+                "attachmentsByRange": {
+                  "{36, 1}": {
+                    "OutputUUID": "55E8FE2C-8686-4EBA-BFA5-630BE920C8A1",
+                    "Type": "ActionOutput",
+                    "OutputName": "Base64已编码内容"
+                  }
+                }
+              },
+              "WFSerializationType": "WFTextTokenString"
+            },
+            "UUID": "1D341CC4-43BD-4B39-96C7-7EA77EC8B116"
+          }
+        },
+        "encoder": {
+          "WFWorkflowActionIdentifier": "is.workflow.actions.base64encode",
+          "WFWorkflowActionParameters": {
+            "WFInput": {
+              "Value": {
+                "OutputUUID": "C1E1D436-314A-4CD4-8B50-5BB25DBB3518",
+                "Type": "ActionOutput",
+                "OutputName": "文本"
+              },
+              "WFSerializationType": "WFTextTokenAttachment"
+            },
+            "WFBase64LineBreakMode": "None",
+            "WFEncodeMode": "Encode",
+            "UUID": "55E8FE2C-8686-4EBA-BFA5-630BE920C8A1"
+          }
+        },
+        "source": {
+          "WFWorkflowActionIdentifier": "is.workflow.actions.gettext",
+          "WFWorkflowActionParameters": {
+            "UUID": "C1E1D436-314A-4CD4-8B50-5BB25DBB3518",
+            "WFTextActionText": {
+              "Value": {
+                "string": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"UTF-8\">\n    <title>Title</title>\n</head>\n<body>\n<script>\n   item = ￼\n\n  tbRes = ￼\n   function getList (){\n   if(!tbRes){\n   tbRes = []\n}\ntbRes.push(item)\nreturn JSON.stringify(tbRes\n)\n}\n  document.write(getList());\n</script>\n</body>\n</html>",
+                "attachmentsByRange": {
+                  "{126, 1}": {
+                    "OutputUUID": "F61B1733-53BE-4B15-AEE8-EFB7829A3B13",
+                    "Type": "ActionOutput",
+                    "OutputName": "词典"
+                  },
+                  "{139, 1}": {
+                    "VariableName": "tbRes",
+                    "Type": "Variable"
+                  }
+                }
+              },
+              "WFSerializationType": "WFTextTokenString"
+            }
+          }
+        }
+      },
+      {
+        "url": {
+          "WFWorkflowActionIdentifier": "is.workflow.actions.url",
+          "WFWorkflowActionParameters": {
+            "WFURLActionURL": {
+              "Value": {
+                "string": "data:text/html;charset=utf-8;base64,￼",
+                "attachmentsByRange": {
+                  "{36, 1}": {
+                    "OutputUUID": "551D4B04-DCEC-47A6-A947-99714177122B",
+                    "Type": "ActionOutput",
+                    "OutputName": "Base64已编码内容"
+                  }
+                }
+              },
+              "WFSerializationType": "WFTextTokenString"
+            },
+            "UUID": "24F9B75D-0B76-42B4-A470-BE11144AEABD"
+          }
+        },
+        "encoder": {
+          "WFWorkflowActionIdentifier": "is.workflow.actions.base64encode",
+          "WFWorkflowActionParameters": {
+            "WFInput": {
+              "Value": {
+                "OutputUUID": "765D9AD5-5E60-4C66-8427-C51D334FB719",
+                "Type": "ActionOutput",
+                "OutputName": "文本"
+              },
+              "WFSerializationType": "WFTextTokenAttachment"
+            },
+            "WFBase64LineBreakMode": "None",
+            "WFEncodeMode": "Encode",
+            "UUID": "551D4B04-DCEC-47A6-A947-99714177122B"
+          }
+        },
+        "source": {
+          "WFWorkflowActionIdentifier": "is.workflow.actions.gettext",
+          "WFWorkflowActionParameters": {
+            "UUID": "765D9AD5-5E60-4C66-8427-C51D334FB719",
+            "WFTextActionText": {
+              "Value": {
+                "string": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"UTF-8\">\n    <title>Title</title>\n</head>\n<body>\n<script>\n\n   ALLDATA = ￼\n\n   DB =  ￼\n   data = ￼\n   ￼\n\n  document.write(runTask());\n</script>\n</body>\n</html>",
+                "attachmentsByRange": {
+                  "{159, 1}": {
+                    "OutputUUID": "38CA1F9D-1DD4-48B1-902F-CA4F679C4EF5",
+                    "Type": "ActionOutput",
+                    "OutputName": "文本"
+                  },
+                  "{130, 1}": {
+                    "VariableName": "__DATA__",
+                    "Type": "Variable"
+                  },
+                  "{142, 1}": {
+                    "VariableName": "DB",
+                    "Type": "Variable"
+                  },
+                  "{154, 1}": {
+                    "VariableName": "tbRes",
+                    "Type": "Variable"
+                  }
+                }
+              },
+              "WFSerializationType": "WFTextTokenString"
+            }
+          }
+        }
+      }
+    ]
+  }
+]

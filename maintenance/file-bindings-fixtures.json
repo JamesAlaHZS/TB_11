@@ -1,7 +1,7 @@
 [
   {
     "file": "天猫双十一CK赛车-ala.shortcut",
-    "signed_sha256": "2865fb6f80b7ed020fb3e9b29d6f4bb67f77f69e5a4cce9fb31825a39506c15b",
+    "signed_sha256": "3c54b40d542bdf10aadd27c447f603357c152b5888cb373d2ea6ef5bb6c01687",
     "actions": [
       {
         "WFWorkflowActionIdentifier": "is.workflow.actions.file.createfolder",
@@ -9,10 +9,10 @@
           "WFFilePath": "abc/tb",
           "WFFolder": {
             "fileLocation": {
-              "appContainerBundleIdentifier": "com.apple.shortcuts",
+              "relativeSubpath": "",
               "fileProviderDomainID": "com.apple.CloudDocs.MobileDocumentsFileProvider",
-              "WFFileLocationType": "Shortcuts",
-              "relativeSubpath": ""
+              "appContainerBundleIdentifier": "com.apple.shortcuts",
+              "WFFileLocationType": "Shortcuts"
             },
             "filename": "Documents",
             "displayName": "Shortcuts"
@@ -24,10 +24,10 @@
         "WFWorkflowActionParameters": {
           "WFFolder": {
             "fileLocation": {
-              "appContainerBundleIdentifier": "com.apple.shortcuts",
+              "relativeSubpath": "",
               "fileProviderDomainID": "com.apple.CloudDocs.MobileDocumentsFileProvider",
-              "WFFileLocationType": "Shortcuts",
-              "relativeSubpath": ""
+              "appContainerBundleIdentifier": "com.apple.shortcuts",
+              "WFFileLocationType": "Shortcuts"
             },
             "filename": "Documents",
             "displayName": "Shortcuts"
@@ -67,10 +67,10 @@
         "WFWorkflowActionParameters": {
           "WFFile": {
             "fileLocation": {
-              "appContainerBundleIdentifier": "com.apple.shortcuts",
+              "relativeSubpath": "",
               "fileProviderDomainID": "com.apple.CloudDocs.MobileDocumentsFileProvider",
-              "WFFileLocationType": "Shortcuts",
-              "relativeSubpath": ""
+              "appContainerBundleIdentifier": "com.apple.shortcuts",
+              "WFFileLocationType": "Shortcuts"
             },
             "filename": "Documents",
             "displayName": "Shortcuts"
@@ -87,10 +87,10 @@
         "WFWorkflowActionParameters": {
           "WFFolder": {
             "fileLocation": {
-              "appContainerBundleIdentifier": "com.apple.shortcuts",
+              "relativeSubpath": "",
               "fileProviderDomainID": "com.apple.CloudDocs.MobileDocumentsFileProvider",
-              "WFFileLocationType": "Shortcuts",
-              "relativeSubpath": ""
+              "appContainerBundleIdentifier": "com.apple.shortcuts",
+              "WFFileLocationType": "Shortcuts"
             },
             "filename": "Documents",
             "displayName": "Shortcuts"
@@ -131,10 +131,10 @@
           },
           "WFFolder": {
             "fileLocation": {
-              "appContainerBundleIdentifier": "com.apple.shortcuts",
+              "relativeSubpath": "",
               "fileProviderDomainID": "com.apple.CloudDocs.MobileDocumentsFileProvider",
-              "WFFileLocationType": "Shortcuts",
-              "relativeSubpath": ""
+              "appContainerBundleIdentifier": "com.apple.shortcuts",
+              "WFFileLocationType": "Shortcuts"
             },
             "filename": "Documents",
             "displayName": "Shortcuts"
@@ -146,10 +146,10 @@
         "WFWorkflowActionParameters": {
           "WFFolder": {
             "fileLocation": {
-              "appContainerBundleIdentifier": "com.apple.shortcuts",
+              "relativeSubpath": "",
               "fileProviderDomainID": "com.apple.CloudDocs.MobileDocumentsFileProvider",
-              "WFFileLocationType": "Shortcuts",
-              "relativeSubpath": ""
+              "appContainerBundleIdentifier": "com.apple.shortcuts",
+              "WFFileLocationType": "Shortcuts"
             },
             "filename": "Documents",
             "displayName": "Shortcuts"
@@ -189,10 +189,10 @@
         "WFWorkflowActionParameters": {
           "WFFolder": {
             "fileLocation": {
-              "appContainerBundleIdentifier": "com.apple.shortcuts",
+              "relativeSubpath": "",
               "fileProviderDomainID": "com.apple.CloudDocs.MobileDocumentsFileProvider",
-              "WFFileLocationType": "Shortcuts",
-              "relativeSubpath": ""
+              "appContainerBundleIdentifier": "com.apple.shortcuts",
+              "WFFileLocationType": "Shortcuts"
             },
             "filename": "Documents",
             "displayName": "Shortcuts"
@@ -232,10 +232,10 @@
         "WFWorkflowActionParameters": {
           "WFFile": {
             "fileLocation": {
-              "appContainerBundleIdentifier": "com.apple.shortcuts",
+              "relativeSubpath": "",
               "fileProviderDomainID": "com.apple.CloudDocs.MobileDocumentsFileProvider",
-              "WFFileLocationType": "Shortcuts",
-              "relativeSubpath": ""
+              "appContainerBundleIdentifier": "com.apple.shortcuts",
+              "WFFileLocationType": "Shortcuts"
             },
             "filename": "Documents",
             "displayName": "Shortcuts"
@@ -252,10 +252,10 @@
         "WFWorkflowActionParameters": {
           "WFFolder": {
             "fileLocation": {
-              "appContainerBundleIdentifier": "com.apple.shortcuts",
+              "relativeSubpath": "",
               "fileProviderDomainID": "com.apple.CloudDocs.MobileDocumentsFileProvider",
-              "WFFileLocationType": "Shortcuts",
-              "relativeSubpath": ""
+              "appContainerBundleIdentifier": "com.apple.shortcuts",
+              "WFFileLocationType": "Shortcuts"
             },
             "filename": "Documents",
             "displayName": "Shortcuts"
@@ -296,10 +296,10 @@
           },
           "WFFile": {
             "fileLocation": {
-              "appContainerBundleIdentifier": "com.apple.shortcuts",
+              "relativeSubpath": "",
               "fileProviderDomainID": "com.apple.CloudDocs.MobileDocumentsFileProvider",
-              "WFFileLocationType": "Shortcuts",
-              "relativeSubpath": ""
+              "appContainerBundleIdentifier": "com.apple.shortcuts",
+              "WFFileLocationType": "Shortcuts"
             },
             "filename": "Documents",
             "displayName": "Shortcuts"
@@ -313,7 +313,7 @@
   },
   {
     "file": "双十一中国行ck模式-ala.shortcut",
-    "signed_sha256": "0ad977d8f10560386178065b4e5e4481c6ab6d64611ce3089ca2af073cc1e8e9",
+    "signed_sha256": "09befd0a7b3f5ff88f0b1ab7eeccf88626287cde541c360226fd4e72e3abd802",
     "actions": [
       {
         "WFWorkflowActionIdentifier": "is.workflow.actions.file.createfolder",
@@ -321,10 +321,10 @@
           "WFFilePath": "abc/tb",
           "WFFolder": {
             "fileLocation": {
-              "appContainerBundleIdentifier": "com.apple.shortcuts",
+              "relativeSubpath": "",
               "fileProviderDomainID": "com.apple.CloudDocs.MobileDocumentsFileProvider",
-              "WFFileLocationType": "Shortcuts",
-              "relativeSubpath": ""
+              "appContainerBundleIdentifier": "com.apple.shortcuts",
+              "WFFileLocationType": "Shortcuts"
             },
             "filename": "Documents",
             "displayName": "Shortcuts"
@@ -336,10 +336,10 @@
         "WFWorkflowActionParameters": {
           "WFFolder": {
             "fileLocation": {
-              "appContainerBundleIdentifier": "com.apple.shortcuts",
+              "relativeSubpath": "",
               "fileProviderDomainID": "com.apple.CloudDocs.MobileDocumentsFileProvider",
-              "WFFileLocationType": "Shortcuts",
-              "relativeSubpath": ""
+              "appContainerBundleIdentifier": "com.apple.shortcuts",
+              "WFFileLocationType": "Shortcuts"
             },
             "filename": "Documents",
             "displayName": "Shortcuts"
@@ -379,10 +379,10 @@
         "WFWorkflowActionParameters": {
           "WFFile": {
             "fileLocation": {
-              "appContainerBundleIdentifier": "com.apple.shortcuts",
+              "relativeSubpath": "",
               "fileProviderDomainID": "com.apple.CloudDocs.MobileDocumentsFileProvider",
-              "WFFileLocationType": "Shortcuts",
-              "relativeSubpath": ""
+              "appContainerBundleIdentifier": "com.apple.shortcuts",
+              "WFFileLocationType": "Shortcuts"
             },
             "filename": "Documents",
             "displayName": "Shortcuts"
@@ -399,10 +399,10 @@
         "WFWorkflowActionParameters": {
           "WFFolder": {
             "fileLocation": {
-              "appContainerBundleIdentifier": "com.apple.shortcuts",
+              "relativeSubpath": "",
               "fileProviderDomainID": "com.apple.CloudDocs.MobileDocumentsFileProvider",
-              "WFFileLocationType": "Shortcuts",
-              "relativeSubpath": ""
+              "appContainerBundleIdentifier": "com.apple.shortcuts",
+              "WFFileLocationType": "Shortcuts"
             },
             "filename": "Documents",
             "displayName": "Shortcuts"
@@ -443,10 +443,10 @@
           },
           "WFFolder": {
             "fileLocation": {
-              "appContainerBundleIdentifier": "com.apple.shortcuts",
+              "relativeSubpath": "",
               "fileProviderDomainID": "com.apple.CloudDocs.MobileDocumentsFileProvider",
-              "WFFileLocationType": "Shortcuts",
-              "relativeSubpath": ""
+              "appContainerBundleIdentifier": "com.apple.shortcuts",
+              "WFFileLocationType": "Shortcuts"
             },
             "filename": "Documents",
             "displayName": "Shortcuts"
@@ -458,10 +458,10 @@
         "WFWorkflowActionParameters": {
           "WFFolder": {
             "fileLocation": {
-              "appContainerBundleIdentifier": "com.apple.shortcuts",
+              "relativeSubpath": "",
               "fileProviderDomainID": "com.apple.CloudDocs.MobileDocumentsFileProvider",
-              "WFFileLocationType": "Shortcuts",
-              "relativeSubpath": ""
+              "appContainerBundleIdentifier": "com.apple.shortcuts",
+              "WFFileLocationType": "Shortcuts"
             },
             "filename": "Documents",
             "displayName": "Shortcuts"
@@ -501,10 +501,10 @@
         "WFWorkflowActionParameters": {
           "WFFolder": {
             "fileLocation": {
-              "appContainerBundleIdentifier": "com.apple.shortcuts",
+              "relativeSubpath": "",
               "fileProviderDomainID": "com.apple.CloudDocs.MobileDocumentsFileProvider",
-              "WFFileLocationType": "Shortcuts",
-              "relativeSubpath": ""
+              "appContainerBundleIdentifier": "com.apple.shortcuts",
+              "WFFileLocationType": "Shortcuts"
             },
             "filename": "Documents",
             "displayName": "Shortcuts"
@@ -544,10 +544,10 @@
         "WFWorkflowActionParameters": {
           "WFFile": {
             "fileLocation": {
-              "appContainerBundleIdentifier": "com.apple.shortcuts",
+              "relativeSubpath": "",
               "fileProviderDomainID": "com.apple.CloudDocs.MobileDocumentsFileProvider",
-              "WFFileLocationType": "Shortcuts",
-              "relativeSubpath": ""
+              "appContainerBundleIdentifier": "com.apple.shortcuts",
+              "WFFileLocationType": "Shortcuts"
             },
             "filename": "Documents",
             "displayName": "Shortcuts"
@@ -564,10 +564,10 @@
         "WFWorkflowActionParameters": {
           "WFFolder": {
             "fileLocation": {
-              "appContainerBundleIdentifier": "com.apple.shortcuts",
+              "relativeSubpath": "",
               "fileProviderDomainID": "com.apple.CloudDocs.MobileDocumentsFileProvider",
-              "WFFileLocationType": "Shortcuts",
-              "relativeSubpath": ""
+              "appContainerBundleIdentifier": "com.apple.shortcuts",
+              "WFFileLocationType": "Shortcuts"
             },
             "filename": "Documents",
             "displayName": "Shortcuts"
@@ -608,10 +608,10 @@
           },
           "WFFile": {
             "fileLocation": {
-              "appContainerBundleIdentifier": "com.apple.shortcuts",
+              "relativeSubpath": "",
               "fileProviderDomainID": "com.apple.CloudDocs.MobileDocumentsFileProvider",
-              "WFFileLocationType": "Shortcuts",
-              "relativeSubpath": ""
+              "appContainerBundleIdentifier": "com.apple.shortcuts",
+              "WFFileLocationType": "Shortcuts"
             },
             "filename": "Documents",
             "displayName": "Shortcuts"
