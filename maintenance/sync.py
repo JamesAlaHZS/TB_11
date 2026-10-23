@@ -23,7 +23,7 @@ def text_replace(s, path=''):
     if s.startswith('mqqapi://'):
         return re.sub(r'(?<=uin=)\d+',POLICY['qq_group'],s)
     if s.startswith('https://www.icloud.com/shortcuts/'):
-        return RAW+'shortcuts/TB_11_赛车任务.shortcut' if '无需ck' in path else 'https://github.com/'+POLICY['repository']+'/tree/main/shortcuts'
+        return POLICY['no_ck_shortcut_url'] if '无需ck' in path.lower() else 'https://github.com/'+POLICY['repository']+'/tree/main/shortcuts'
     if s.startswith('https://mp.weixin.qq.com/') and s not in POLICY['video_urls']:
         return 'https://github.com/'+POLICY['repository']+'#readme'
     if s.startswith(POLICY['upstream_base']):
@@ -52,6 +52,37 @@ def leaves(obj,path='$'):
         for i,v in enumerate(obj):yield from leaves(v,path+f'[{i}]')
     else:yield path,obj
 
+def customize_activity(obj):
+    """Apply the user's menu policy after validating the underlying task structure."""
+    def walk(value):
+        if isinstance(value,dict):
+            for key in list(value):
+                if '视频教程' in key:
+                    del value[key]
+                    continue
+                if key=='list' and isinstance(value[key],list):
+                    value[key]=[v for v in value[key] if not (isinstance(v,str) and '视频教程' in v)]
+                if key=='tip' and isinstance(value[key],str):
+                    value[key]=value[key].replace('遇到问题点视频教程','进群获取教程').replace('抓不到包的去视频教程下拉','进群获取教程').replace('不会取cookie的点下面的获取cookie','进群获取教程')
+                    lines=value[key].splitlines();seen=False;kept=[]
+                    for line in lines:
+                        if '视频教程' in line:continue
+                        if line.strip()=='进群获取教程':
+                            if seen:continue
+                            seen=True
+                        kept.append(line)
+                    value[key]='\n'.join(kept)
+                walk(value[key])
+        elif isinstance(value,list):
+            for v in value:walk(v)
+    walk(obj['activity'])
+    tip=obj['activity'].get('tip','').rstrip()
+    if '进群获取教程' not in tip:tip+='\n进群获取教程'
+    obj['activity']['tip']=tip
+    for key,value in obj['activity'].get('mapping',{}).items():
+        if '无需ck' in key.lower() and isinstance(value,dict):value['url']=POLICY['no_ck_shortcut_url']
+    return obj
+
 def checked_json(source):
     obj=json.loads(source)
     result=clean_json(obj)
@@ -67,7 +98,7 @@ def checked_json(source):
             for v,w in zip(a,b):structural(v,w)
         elif not isinstance(a,str) and a!=b:raise ValueError('Non-text task parameter changed')
     structural(obj,result)
-    return result
+    return customize_activity(result)
 
 def js_clean(source):
     def sub(m):return m[1]+(CART if m[2]=='gStr' else RED)+m[4]
@@ -82,6 +113,7 @@ def ast_check(source,target):
     return json.loads(done.stdout)['sha256']
 
 def suspicious(s):
+    s=s.replace(POLICY['no_ck_shortcut_url'],'<OWN_SHORTCUT>')
     for needle in ['jiutiao','九条','963696474','2165017168','884282432','714153240','596783999',
                    'imeituan://','eleme://','pinduoduo.com','inviterId=','click.meituan.com','www.icloud.com/shortcuts/']:
         if needle in s:raise ValueError('Unreplaced destination: '+needle)

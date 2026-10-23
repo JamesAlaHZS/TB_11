@@ -8,7 +8,8 @@
     "red": {"mobile": "https://m.tb.cn/h.j3VpHkQ", "short": "https://s.click.taobao.com/ahRydWi", "activity_id": "20150318020007201"},
     "cart": {"mobile": "https://m.tb.cn/h.jdw2ebh", "short": "https://s.click.taobao.com/0rgOqOi", "activity_id": "20150318020020468"}
   },
-  "video_urls": ["https://mp.weixin.qq.com/s/VV7uzaFJjPQPxdZFyoGoiA"],
+  "video_urls": [],
+  "no_ck_shortcut_url": "https://www.icloud.com/shortcuts/b9d83b3e648f4381b9f4c882bacd6a1a",
   "resources": [
     {"source": "src/taobao/test/tb26618.json", "target": "config/ck-racing.json", "kind": "json"},
     {"source": "src/taobao/new/ckhuahuale.json", "target": "config/ck-china.json", "kind": "json"},

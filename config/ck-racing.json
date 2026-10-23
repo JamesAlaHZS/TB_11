@@ -3,9 +3,8 @@
   "tag": "tm1111",
   "aTag": "eyJzY2VuZUlkIjoiODkxNyJ9",
   "activity": {
-    "tip": "edit by ala，仅供交流学习\nQQ群：1095180136\n切记cookie账户和app账户是一个账户\n---------------\n一个手机不能运行超过三个账号\n---------------\nck模式没问题的可以不用新的\n---------------\n",
+    "tip": "edit by ala，仅供交流学习\nQQ群：1095180136\n切记cookie账户和app账户是一个账户\n---------------\n一个手机不能运行超过三个账号\n---------------\nck模式没问题的可以不用新的\n---------------\n进群获取教程",
     "list": [
-      "点我看视频教程",
       "运行任务-持久化模式",
       "运行任务-手动填ck运行",
       "添加或删除ck持久化账号",
@@ -15,7 +14,7 @@
     ],
     "mapping": {
       "无需ck直接运行版本": {
-        "url": "https://raw.githubusercontent.com/JamesAlaHZS/TB_11/main/shortcuts/TB_11_赛车任务.shortcut"
+        "url": "https://www.icloud.com/shortcuts/b9d83b3e648f4381b9f4c882bacd6a1a"
       },
       "ala 使用说明": {
         "url": "https://github.com/JamesAlaHZS/TB_11#readme"
@@ -31,9 +30,6 @@
       },
       "点我快速抓去抓ck页面": {
         "url": "tbopen://m.taobao.com/tbopen/index.html?h5Url=https%3A%2F%2Fmain.m.taobao.com%2Fmytaobao%2Findex.html"
-      },
-      "点我看视频教程": {
-        "url": "https://mp.weixin.qq.com/s/VV7uzaFJjPQPxdZFyoGoiA"
       },
       "运行任务-持久化模式": {
         "type": "runList",
@@ -108,7 +104,7 @@
         "url": "mqqapi://card/show_pslcard?src_type=internal&version=1&uin=1095180136&card_type=group&source=qrcode"
       },
       "运行任务-手动填ck运行": {
-        "tip": "cookie模式是用自己的数据跑任务\n优点是过风险检测\n-----------------------\n不会取cookie的点下面的获取cookie\n-----------------------\n使用cookie模式请确保下载捷径的途径是安全的\n-----------------------\n 快速去页面APP版本无需登录 \n-----------------------\n",
+        "tip": "cookie模式是用自己的数据跑任务\n优点是过风险检测\n-----------------------\n进群获取教程\n-----------------------\n使用cookie模式请确保下载捷径的途径是安全的\n-----------------------\n 快速去页面APP版本无需登录 \n-----------------------",
         "list": [
           "填写COOKIE开始运行"
         ],
