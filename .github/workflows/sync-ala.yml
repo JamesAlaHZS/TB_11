@@ -26,6 +26,8 @@ jobs:
         run: node maintenance/test-storage.cjs
       - name: Test Cookie input and workflow JSON parsing
         run: node maintenance/test-cookie-pipeline.cjs
+      - name: Test required file and folder bindings
+        run: python maintenance/test-file-bindings.py
       - name: Fetch, sanitize and validate
         run: python maintenance/sync.py
       - name: Validate runtime resources
