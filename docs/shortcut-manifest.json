@@ -1,28 +1,28 @@
 [
   {
     "file": "天猫双十一CK赛车-ala.shortcut",
-    "local_delivery": "天猫双十一CK赛车-ala.shortcut",
-    "version": "folder-v4",
-    "bytes": 48172,
-    "sha256": "add2502130a008ea314ed56098f3c1b322df0902e57861fb3a1590a01c89a5fa",
-    "actions": 354,
+    "versioned_file": "天猫双十一CK赛车-ala-v5.shortcut",
+    "local_delivery": "天猫双十一CK赛车-ala-v5.shortcut",
+    "version": "scalar-v5",
+    "bytes": 48673,
+    "sha256": "b960992753309d2003e4b7076615c48e994939810aa41fc48c6da9b1dd1a30a6",
+    "actions": 360,
     "signature_verified": true,
     "device_import_tested": false,
-    "required_folder_parameters_bound": true,
-    "cookie_input_pipeline_repaired": true,
+    "ok_condition_uses_explicit_text": true,
     "task_generation_scripts_unchanged": true
   },
   {
     "file": "双十一中国行ck模式-ala.shortcut",
-    "local_delivery": "双十一中国行ck模式-ala.shortcut",
-    "version": "folder-v4",
-    "bytes": 48196,
-    "sha256": "6b4308345e45ea51442bc09ff8e8f15a164a7de244357789de416193b5be326c",
-    "actions": 354,
+    "versioned_file": "双十一中国行ck模式-ala-v5.shortcut",
+    "local_delivery": "双十一中国行ck模式-ala-v5.shortcut",
+    "version": "scalar-v5",
+    "bytes": 48682,
+    "sha256": "8bf0b1fa44babc02bf7510afd78a22712046b9a5244afd7d16783498339ef17d",
+    "actions": 360,
     "signature_verified": true,
     "device_import_tested": false,
-    "required_folder_parameters_bound": true,
-    "cookie_input_pipeline_repaired": true,
+    "ok_condition_uses_explicit_text": true,
     "task_generation_scripts_unchanged": true
   }
 ]

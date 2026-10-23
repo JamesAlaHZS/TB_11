@@ -2,13 +2,13 @@
 
 edit by ala，仅供交流学习。QQ群：**1095180136**。
 
-- [天猫双十一CK赛车-ala.shortcut](shortcuts/天猫双十一CK赛车-ala.shortcut?raw=true)
-- [双十一中国行ck模式-ala.shortcut](shortcuts/双十一中国行ck模式-ala.shortcut?raw=true)
+- [天猫双十一CK赛车-ala-v5.shortcut](shortcuts/天猫双十一CK赛车-ala-v5.shortcut?raw=true)
+- [双十一中国行ck模式-ala-v5.shortcut](shortcuts/双十一中国行ck模式-ala-v5.shortcut?raw=true)
 - [原有无需 CK 版本](shortcuts/TB_11_赛车任务.shortcut?raw=true)
 
 在 iPhone/iPad 下载并用快捷指令打开；CK 模式沿用原有账号添加、持久化和手动输入流程。请按手机提示操作，运行期间保持解锁。教程请进群获取（QQ群：1095180136）。
 
-两个 ala 文件已更新为目录参数修复版（folder-v4），各 **354 个动作**。补齐创建目录、读取与保存文件的文件夹参数，沿用 iCloud Drive/Shortcuts/abc/cookie/ckfile.txt 中的已有账号，保留自动建目录、账号校验备份和此前的数据转换修复。任务生成脚本与推广入口保持一致。已通过本地结构、虚构数据及签名校验；实际 iPhone 导入与运行仍需设备验收。
+当前为 **ala-v5（360 个动作）**。持久化状态通过独立取值、文本转换后判断，修复用户定位到“如果 ok 是”处的参数错误；保留已有账号、自动目录准备、备份、任务逻辑及推广入口。首次运行持久化会显示“ala-v5”通知。已完成本地工作流与签名检查，尚待真实设备验收。
 
 TG-ala：https://m.tb.cn/h.j3VpHkQ
 
@@ -25,4 +25,4 @@ TG-ala：https://s.click.taobao.com/0rgOqOi
 
 [数据转换修复说明](docs/转换修复说明.md)：遇到“无法将多信息文本转换为词典”的用户需要重新导入最新版快捷指令，已有账号文件无需删除。
 
-[持久化目录参数修复说明](docs/存储增强说明.md)：遇到“请为此操作中的每个参数选取值”时，请重新导入以上两个同名文件；已有账号文件无需删除。
+[持久化状态判断修复说明](docs/持久化状态判断修复.md)：报错定位到“如果 ok 是”时，请导入 ala-v5，并从带 v5 的新入口运行；已有账号文件无需删除。

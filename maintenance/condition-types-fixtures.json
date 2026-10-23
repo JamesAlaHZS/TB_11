@@ -1,0 +1,568 @@
+[
+  {
+    "file": "天猫双十一CK赛车-ala.shortcut",
+    "versioned_file": "天猫双十一CK赛车-ala-v5.shortcut",
+    "signed_sha256": "b960992753309d2003e4b7076615c48e994939810aa41fc48c6da9b1dd1a30a6",
+    "conditions": [
+      {
+        "condition": {
+          "WFWorkflowActionIdentifier": "is.workflow.actions.conditional",
+          "WFWorkflowActionParameters": {
+            "WFInput": {
+              "Type": "Variable",
+              "Variable": {
+                "Value": {
+                  "Type": "ActionOutput",
+                  "OutputName": "文本",
+                  "OutputUUID": "33E8E05E-1F83-4C3C-BEA9-0300329E34E0",
+                  "Aggrandizements": [
+                    {
+                      "Type": "WFCoercionVariableAggrandizement",
+                      "CoercionItemClass": "WFStringContentItem"
+                    }
+                  ]
+                },
+                "WFSerializationType": "WFTextTokenAttachment"
+              }
+            },
+            "WFControlFlowMode": 0,
+            "WFConditionalActionString": "ALA_STORE_OK",
+            "GroupingIdentifier": "F7B067AF-3E5E-49B6-AAE9-A4CE46D6B8C9",
+            "WFCondition": 4
+          }
+        },
+        "text": {
+          "WFWorkflowActionIdentifier": "is.workflow.actions.gettext",
+          "WFWorkflowActionParameters": {
+            "UUID": "33E8E05E-1F83-4C3C-BEA9-0300329E34E0",
+            "WFTextActionText": {
+              "Value": {
+                "string": "￼",
+                "attachmentsByRange": {
+                  "{0, 1}": {
+                    "OutputUUID": "76E90E2D-EDB6-42C4-9701-576921FDAA5B",
+                    "Type": "ActionOutput",
+                    "OutputName": "词典值"
+                  }
+                }
+              },
+              "WFSerializationType": "WFTextTokenString"
+            }
+          }
+        },
+        "source": {
+          "WFWorkflowActionIdentifier": "is.workflow.actions.getvalueforkey",
+          "WFWorkflowActionParameters": {
+            "WFInput": {
+              "Value": {
+                "OutputUUID": "61EC3093-E43C-432C-B9BA-F735006F4EFB",
+                "Type": "ActionOutput",
+                "OutputName": "词典"
+              },
+              "WFSerializationType": "WFTextTokenAttachment"
+            },
+            "UUID": "76E90E2D-EDB6-42C4-9701-576921FDAA5B",
+            "WFGetDictionaryValueType": "Value",
+            "WFDictionaryKey": "ok"
+          }
+        }
+      },
+      {
+        "condition": {
+          "WFWorkflowActionIdentifier": "is.workflow.actions.conditional",
+          "WFWorkflowActionParameters": {
+            "WFInput": {
+              "Type": "Variable",
+              "Variable": {
+                "Value": {
+                  "Type": "ActionOutput",
+                  "OutputName": "文本",
+                  "OutputUUID": "57091824-7A30-4331-BDDB-28289156063E",
+                  "Aggrandizements": [
+                    {
+                      "Type": "WFCoercionVariableAggrandizement",
+                      "CoercionItemClass": "WFStringContentItem"
+                    }
+                  ]
+                },
+                "WFSerializationType": "WFTextTokenAttachment"
+              }
+            },
+            "WFControlFlowMode": 0,
+            "WFConditionalActionString": "ALA_STORE_OK",
+            "GroupingIdentifier": "EC96E320-E61B-47E8-924C-CCBD1DE12EEF",
+            "WFCondition": 4
+          }
+        },
+        "text": {
+          "WFWorkflowActionIdentifier": "is.workflow.actions.gettext",
+          "WFWorkflowActionParameters": {
+            "UUID": "57091824-7A30-4331-BDDB-28289156063E",
+            "WFTextActionText": {
+              "Value": {
+                "string": "￼",
+                "attachmentsByRange": {
+                  "{0, 1}": {
+                    "OutputUUID": "8151AEEB-0025-470F-A4E1-6C05C5E83A2A",
+                    "Type": "ActionOutput",
+                    "OutputName": "词典值"
+                  }
+                }
+              },
+              "WFSerializationType": "WFTextTokenString"
+            }
+          }
+        },
+        "source": {
+          "WFWorkflowActionIdentifier": "is.workflow.actions.getvalueforkey",
+          "WFWorkflowActionParameters": {
+            "WFInput": {
+              "Value": {
+                "OutputUUID": "718F9D41-F010-4999-B55B-D277E1CEADED",
+                "Type": "ActionOutput",
+                "OutputName": "词典"
+              },
+              "WFSerializationType": "WFTextTokenAttachment"
+            },
+            "UUID": "8151AEEB-0025-470F-A4E1-6C05C5E83A2A",
+            "WFGetDictionaryValueType": "Value",
+            "WFDictionaryKey": "ok"
+          }
+        }
+      },
+      {
+        "condition": {
+          "WFWorkflowActionIdentifier": "is.workflow.actions.conditional",
+          "WFWorkflowActionParameters": {
+            "WFInput": {
+              "Type": "Variable",
+              "Variable": {
+                "Value": {
+                  "Type": "ActionOutput",
+                  "OutputName": "文本",
+                  "OutputUUID": "2A3FDA5B-FBFF-45EA-A141-C12E7B5DEAB3",
+                  "Aggrandizements": [
+                    {
+                      "Type": "WFCoercionVariableAggrandizement",
+                      "CoercionItemClass": "WFStringContentItem"
+                    }
+                  ]
+                },
+                "WFSerializationType": "WFTextTokenAttachment"
+              }
+            },
+            "WFControlFlowMode": 0,
+            "WFConditionalActionString": "ok",
+            "GroupingIdentifier": "DDF4E77D-E952-423C-800C-47A38B464547",
+            "WFCondition": 4
+          }
+        },
+        "text": {
+          "WFWorkflowActionIdentifier": "is.workflow.actions.gettext",
+          "WFWorkflowActionParameters": {
+            "UUID": "2A3FDA5B-FBFF-45EA-A141-C12E7B5DEAB3",
+            "WFTextActionText": {
+              "Value": {
+                "string": "￼",
+                "attachmentsByRange": {
+                  "{0, 1}": {
+                    "OutputUUID": "F9448153-7DC9-4A11-A795-5E2D5D14E74F",
+                    "Type": "ActionOutput",
+                    "OutputName": "文本"
+                  }
+                }
+              },
+              "WFSerializationType": "WFTextTokenString"
+            }
+          }
+        },
+        "source": {
+          "WFWorkflowActionIdentifier": "is.workflow.actions.getvalueforkey",
+          "WFWorkflowActionParameters": {
+            "WFInput": {
+              "Value": {
+                "OutputUUID": "AC725B90-A8EF-4603-8480-4E4E3095CF54",
+                "Type": "ActionOutput",
+                "OutputName": "文本"
+              },
+              "WFSerializationType": "WFTextTokenAttachment"
+            },
+            "UUID": "F9448153-7DC9-4A11-A795-5E2D5D14E74F",
+            "WFDictionaryKey": "succes"
+          }
+        }
+      },
+      {
+        "condition": {
+          "WFWorkflowActionIdentifier": "is.workflow.actions.conditional",
+          "WFWorkflowActionParameters": {
+            "WFInput": {
+              "Type": "Variable",
+              "Variable": {
+                "Value": {
+                  "Type": "ActionOutput",
+                  "OutputName": "文本",
+                  "OutputUUID": "B013DC87-917A-4399-89E1-1E10A015B9E9",
+                  "Aggrandizements": [
+                    {
+                      "Type": "WFCoercionVariableAggrandizement",
+                      "CoercionItemClass": "WFStringContentItem"
+                    }
+                  ]
+                },
+                "WFSerializationType": "WFTextTokenAttachment"
+              }
+            },
+            "WFControlFlowMode": 0,
+            "WFConditionalActionString": "succes",
+            "GroupingIdentifier": "ED5F2AE4-A6D7-4050-BFFC-23366723928C",
+            "WFCondition": 99
+          }
+        },
+        "text": {
+          "WFWorkflowActionIdentifier": "is.workflow.actions.gettext",
+          "WFWorkflowActionParameters": {
+            "UUID": "B013DC87-917A-4399-89E1-1E10A015B9E9",
+            "WFTextActionText": {
+              "Value": {
+                "string": "￼",
+                "attachmentsByRange": {
+                  "{0, 1}": {
+                    "OutputUUID": "736E3D5E-F8A5-47A7-A20D-2EAA9DAEF083",
+                    "Type": "ActionOutput",
+                    "OutputName": "网页的内容"
+                  }
+                }
+              },
+              "WFSerializationType": "WFTextTokenString"
+            }
+          }
+        },
+        "source": {
+          "WFWorkflowActionIdentifier": "is.workflow.actions.getwebpagecontents",
+          "WFWorkflowActionParameters": {
+            "WFInput": {
+              "Value": {
+                "string": "￼",
+                "attachmentsByRange": {
+                  "{0, 1}": {
+                    "OutputUUID": "24F9B75D-0B76-42B4-A470-BE11144AEABD",
+                    "Type": "ActionOutput",
+                    "OutputName": "URL"
+                  }
+                }
+              },
+              "WFSerializationType": "WFTextTokenString"
+            },
+            "UUID": "736E3D5E-F8A5-47A7-A20D-2EAA9DAEF083"
+          }
+        }
+      }
+    ],
+    "storage_html": [
+      {
+        "string": "<html><meta charset=\"utf-8\"><body><script>function parseStore(raw, mode) {\n try {\n  const clean=raw.replace(/^\\uFEFF/, '').trim();\n  let obj={};\n  if (clean) {\n   try {\n    obj=JSON.parse(clean);\n    for(let i=0;i<2 && typeof obj==='string';i++) obj=JSON.parse(obj);\n   } catch (_) {\n    const line=clean.match(/(?:^|\\n)Cookie:\\s*([^\\r\\n]+)/i);\n    const cookie=line ? line[1] : clean;\n    if (!/(?:^|;)\\s*_m_h5_tk=[^;]+/.test(cookie)) throw Error('format');\n    const nick=cookie.match(/(?:^|;)\\s*_nk_=([^;]+)/);\n    if (!nick) throw Error('name');\n    const name=decodeURIComponent(nick[1]);\n    obj=Object.create(null);obj[name]=cookie;\n   }\n  }\n  if (!obj || Array.isArray(obj) || typeof obj !== 'object') throw Error('format');\n  const keys=Object.keys(obj);\n  for (const k of keys) {\n   if (!k.trim() || ['__proto__','constructor','prototype','undefined','Undefined'].includes(k) ||\n       typeof obj[k] !== 'string' || !/(?:^|;)\\s*_m_h5_tk=/.test(obj[k])) throw Error('account');\n  }\n  return {ok:'ALA_STORE_OK', json:mode==='run' && !keys.length ? '' : JSON.stringify(obj),count:keys.length};\n } catch (_) { return {ok:'ALA_STORE_ERROR',json:'',count:0}; }\n}\nconst raw=decodeURIComponent(escape(atob(\"￼\")));document.body.textContent=JSON.stringify(parseStore(raw,\"add\"));</script></body></html>",
+        "attachmentsByRange": {
+          "{1209, 1}": {
+            "OutputUUID": "CD06DFD1-B742-4C67-B578-B1B7AB64A170",
+            "Type": "ActionOutput",
+            "OutputName": "文本"
+          }
+        }
+      },
+      {
+        "string": "<html><meta charset=\"utf-8\"><body><script>function parseStore(raw, mode) {\n try {\n  const clean=raw.replace(/^\\uFEFF/, '').trim();\n  let obj={};\n  if (clean) {\n   try {\n    obj=JSON.parse(clean);\n    for(let i=0;i<2 && typeof obj==='string';i++) obj=JSON.parse(obj);\n   } catch (_) {\n    const line=clean.match(/(?:^|\\n)Cookie:\\s*([^\\r\\n]+)/i);\n    const cookie=line ? line[1] : clean;\n    if (!/(?:^|;)\\s*_m_h5_tk=[^;]+/.test(cookie)) throw Error('format');\n    const nick=cookie.match(/(?:^|;)\\s*_nk_=([^;]+)/);\n    if (!nick) throw Error('name');\n    const name=decodeURIComponent(nick[1]);\n    obj=Object.create(null);obj[name]=cookie;\n   }\n  }\n  if (!obj || Array.isArray(obj) || typeof obj !== 'object') throw Error('format');\n  const keys=Object.keys(obj);\n  for (const k of keys) {\n   if (!k.trim() || ['__proto__','constructor','prototype','undefined','Undefined'].includes(k) ||\n       typeof obj[k] !== 'string' || !/(?:^|;)\\s*_m_h5_tk=/.test(obj[k])) throw Error('account');\n  }\n  return {ok:'ALA_STORE_OK', json:mode==='run' && !keys.length ? '' : JSON.stringify(obj),count:keys.length};\n } catch (_) { return {ok:'ALA_STORE_ERROR',json:'',count:0}; }\n}\nconst raw=decodeURIComponent(escape(atob(\"￼\")));document.body.textContent=JSON.stringify(parseStore(raw,\"run\"));</script></body></html>",
+        "attachmentsByRange": {
+          "{1209, 1}": {
+            "OutputUUID": "B024FC27-5B35-47E3-827E-2794A7A966F2",
+            "Type": "ActionOutput",
+            "OutputName": "文本"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "file": "双十一中国行ck模式-ala.shortcut",
+    "versioned_file": "双十一中国行ck模式-ala-v5.shortcut",
+    "signed_sha256": "8bf0b1fa44babc02bf7510afd78a22712046b9a5244afd7d16783498339ef17d",
+    "conditions": [
+      {
+        "condition": {
+          "WFWorkflowActionIdentifier": "is.workflow.actions.conditional",
+          "WFWorkflowActionParameters": {
+            "WFInput": {
+              "Type": "Variable",
+              "Variable": {
+                "Value": {
+                  "Type": "ActionOutput",
+                  "OutputName": "文本",
+                  "OutputUUID": "5FB55514-C0DB-4130-B85C-F67947FF50D2",
+                  "Aggrandizements": [
+                    {
+                      "Type": "WFCoercionVariableAggrandizement",
+                      "CoercionItemClass": "WFStringContentItem"
+                    }
+                  ]
+                },
+                "WFSerializationType": "WFTextTokenAttachment"
+              }
+            },
+            "WFControlFlowMode": 0,
+            "WFConditionalActionString": "ALA_STORE_OK",
+            "GroupingIdentifier": "03CC9919-7C77-4684-8841-3989643DBAC4",
+            "WFCondition": 4
+          }
+        },
+        "text": {
+          "WFWorkflowActionIdentifier": "is.workflow.actions.gettext",
+          "WFWorkflowActionParameters": {
+            "UUID": "5FB55514-C0DB-4130-B85C-F67947FF50D2",
+            "WFTextActionText": {
+              "Value": {
+                "string": "￼",
+                "attachmentsByRange": {
+                  "{0, 1}": {
+                    "OutputUUID": "FF3FC05F-613E-41AC-9BEA-169F94EA7E26",
+                    "Type": "ActionOutput",
+                    "OutputName": "词典值"
+                  }
+                }
+              },
+              "WFSerializationType": "WFTextTokenString"
+            }
+          }
+        },
+        "source": {
+          "WFWorkflowActionIdentifier": "is.workflow.actions.getvalueforkey",
+          "WFWorkflowActionParameters": {
+            "WFInput": {
+              "Value": {
+                "OutputUUID": "20756370-BD7F-4887-B004-71480528E95C",
+                "Type": "ActionOutput",
+                "OutputName": "词典"
+              },
+              "WFSerializationType": "WFTextTokenAttachment"
+            },
+            "UUID": "FF3FC05F-613E-41AC-9BEA-169F94EA7E26",
+            "WFGetDictionaryValueType": "Value",
+            "WFDictionaryKey": "ok"
+          }
+        }
+      },
+      {
+        "condition": {
+          "WFWorkflowActionIdentifier": "is.workflow.actions.conditional",
+          "WFWorkflowActionParameters": {
+            "WFInput": {
+              "Type": "Variable",
+              "Variable": {
+                "Value": {
+                  "Type": "ActionOutput",
+                  "OutputName": "文本",
+                  "OutputUUID": "4DF8030B-874C-41EA-AC78-06781631440D",
+                  "Aggrandizements": [
+                    {
+                      "Type": "WFCoercionVariableAggrandizement",
+                      "CoercionItemClass": "WFStringContentItem"
+                    }
+                  ]
+                },
+                "WFSerializationType": "WFTextTokenAttachment"
+              }
+            },
+            "WFControlFlowMode": 0,
+            "WFConditionalActionString": "ALA_STORE_OK",
+            "GroupingIdentifier": "CA7E050C-9FC1-498B-B9BD-02DBDDAD8060",
+            "WFCondition": 4
+          }
+        },
+        "text": {
+          "WFWorkflowActionIdentifier": "is.workflow.actions.gettext",
+          "WFWorkflowActionParameters": {
+            "UUID": "4DF8030B-874C-41EA-AC78-06781631440D",
+            "WFTextActionText": {
+              "Value": {
+                "string": "￼",
+                "attachmentsByRange": {
+                  "{0, 1}": {
+                    "OutputUUID": "5468B2FF-AF04-4DC5-AEF0-5895BA5DA5CD",
+                    "Type": "ActionOutput",
+                    "OutputName": "词典值"
+                  }
+                }
+              },
+              "WFSerializationType": "WFTextTokenString"
+            }
+          }
+        },
+        "source": {
+          "WFWorkflowActionIdentifier": "is.workflow.actions.getvalueforkey",
+          "WFWorkflowActionParameters": {
+            "WFInput": {
+              "Value": {
+                "OutputUUID": "2C806884-07F4-4A1B-AF1D-63492E2BD22C",
+                "Type": "ActionOutput",
+                "OutputName": "词典"
+              },
+              "WFSerializationType": "WFTextTokenAttachment"
+            },
+            "UUID": "5468B2FF-AF04-4DC5-AEF0-5895BA5DA5CD",
+            "WFGetDictionaryValueType": "Value",
+            "WFDictionaryKey": "ok"
+          }
+        }
+      },
+      {
+        "condition": {
+          "WFWorkflowActionIdentifier": "is.workflow.actions.conditional",
+          "WFWorkflowActionParameters": {
+            "WFInput": {
+              "Type": "Variable",
+              "Variable": {
+                "Value": {
+                  "Type": "ActionOutput",
+                  "OutputName": "文本",
+                  "OutputUUID": "79F2A91D-E431-4A4C-A453-C641A3E7C181",
+                  "Aggrandizements": [
+                    {
+                      "Type": "WFCoercionVariableAggrandizement",
+                      "CoercionItemClass": "WFStringContentItem"
+                    }
+                  ]
+                },
+                "WFSerializationType": "WFTextTokenAttachment"
+              }
+            },
+            "WFControlFlowMode": 0,
+            "WFConditionalActionString": "ok",
+            "GroupingIdentifier": "9256E491-14DF-4E26-BA1B-764E477E6C50",
+            "WFCondition": 4
+          }
+        },
+        "text": {
+          "WFWorkflowActionIdentifier": "is.workflow.actions.gettext",
+          "WFWorkflowActionParameters": {
+            "UUID": "79F2A91D-E431-4A4C-A453-C641A3E7C181",
+            "WFTextActionText": {
+              "Value": {
+                "string": "￼",
+                "attachmentsByRange": {
+                  "{0, 1}": {
+                    "OutputUUID": "6BFD20B5-30BE-4114-BEDA-198A261F2DCC",
+                    "Type": "ActionOutput",
+                    "OutputName": "文本"
+                  }
+                }
+              },
+              "WFSerializationType": "WFTextTokenString"
+            }
+          }
+        },
+        "source": {
+          "WFWorkflowActionIdentifier": "is.workflow.actions.getvalueforkey",
+          "WFWorkflowActionParameters": {
+            "WFInput": {
+              "Value": {
+                "OutputUUID": "1E789AC7-062F-4D8B-9291-C783B91F4DA1",
+                "Type": "ActionOutput",
+                "OutputName": "文本"
+              },
+              "WFSerializationType": "WFTextTokenAttachment"
+            },
+            "UUID": "6BFD20B5-30BE-4114-BEDA-198A261F2DCC",
+            "WFDictionaryKey": "succes"
+          }
+        }
+      },
+      {
+        "condition": {
+          "WFWorkflowActionIdentifier": "is.workflow.actions.conditional",
+          "WFWorkflowActionParameters": {
+            "WFInput": {
+              "Type": "Variable",
+              "Variable": {
+                "Value": {
+                  "Type": "ActionOutput",
+                  "OutputName": "文本",
+                  "OutputUUID": "B362AAD6-6376-4C66-964E-9B05488FEF7C",
+                  "Aggrandizements": [
+                    {
+                      "Type": "WFCoercionVariableAggrandizement",
+                      "CoercionItemClass": "WFStringContentItem"
+                    }
+                  ]
+                },
+                "WFSerializationType": "WFTextTokenAttachment"
+              }
+            },
+            "WFControlFlowMode": 0,
+            "WFConditionalActionString": "succes",
+            "GroupingIdentifier": "ED5F2AE4-A6D7-4050-BFFC-23366723928C",
+            "WFCondition": 99
+          }
+        },
+        "text": {
+          "WFWorkflowActionIdentifier": "is.workflow.actions.gettext",
+          "WFWorkflowActionParameters": {
+            "UUID": "B362AAD6-6376-4C66-964E-9B05488FEF7C",
+            "WFTextActionText": {
+              "Value": {
+                "string": "￼",
+                "attachmentsByRange": {
+                  "{0, 1}": {
+                    "OutputUUID": "736E3D5E-F8A5-47A7-A20D-2EAA9DAEF083",
+                    "Type": "ActionOutput",
+                    "OutputName": "网页的内容"
+                  }
+                }
+              },
+              "WFSerializationType": "WFTextTokenString"
+            }
+          }
+        },
+        "source": {
+          "WFWorkflowActionIdentifier": "is.workflow.actions.getwebpagecontents",
+          "WFWorkflowActionParameters": {
+            "WFInput": {
+              "Value": {
+                "string": "￼",
+                "attachmentsByRange": {
+                  "{0, 1}": {
+                    "OutputUUID": "24F9B75D-0B76-42B4-A470-BE11144AEABD",
+                    "Type": "ActionOutput",
+                    "OutputName": "URL"
+                  }
+                }
+              },
+              "WFSerializationType": "WFTextTokenString"
+            },
+            "UUID": "736E3D5E-F8A5-47A7-A20D-2EAA9DAEF083"
+          }
+        }
+      }
+    ],
+    "storage_html": [
+      {
+        "string": "<html><meta charset=\"utf-8\"><body><script>function parseStore(raw, mode) {\n try {\n  const clean=raw.replace(/^\\uFEFF/, '').trim();\n  let obj={};\n  if (clean) {\n   try {\n    obj=JSON.parse(clean);\n    for(let i=0;i<2 && typeof obj==='string';i++) obj=JSON.parse(obj);\n   } catch (_) {\n    const line=clean.match(/(?:^|\\n)Cookie:\\s*([^\\r\\n]+)/i);\n    const cookie=line ? line[1] : clean;\n    if (!/(?:^|;)\\s*_m_h5_tk=[^;]+/.test(cookie)) throw Error('format');\n    const nick=cookie.match(/(?:^|;)\\s*_nk_=([^;]+)/);\n    if (!nick) throw Error('name');\n    const name=decodeURIComponent(nick[1]);\n    obj=Object.create(null);obj[name]=cookie;\n   }\n  }\n  if (!obj || Array.isArray(obj) || typeof obj !== 'object') throw Error('format');\n  const keys=Object.keys(obj);\n  for (const k of keys) {\n   if (!k.trim() || ['__proto__','constructor','prototype','undefined','Undefined'].includes(k) ||\n       typeof obj[k] !== 'string' || !/(?:^|;)\\s*_m_h5_tk=/.test(obj[k])) throw Error('account');\n  }\n  return {ok:'ALA_STORE_OK', json:mode==='run' && !keys.length ? '' : JSON.stringify(obj),count:keys.length};\n } catch (_) { return {ok:'ALA_STORE_ERROR',json:'',count:0}; }\n}\nconst raw=decodeURIComponent(escape(atob(\"￼\")));document.body.textContent=JSON.stringify(parseStore(raw,\"add\"));</script></body></html>",
+        "attachmentsByRange": {
+          "{1209, 1}": {
+            "OutputUUID": "15873619-5BD3-460A-A74F-FBFA16752C3B",
+            "Type": "ActionOutput",
+            "OutputName": "文本"
+          }
+        }
+      },
+      {
+        "string": "<html><meta charset=\"utf-8\"><body><script>function parseStore(raw, mode) {\n try {\n  const clean=raw.replace(/^\\uFEFF/, '').trim();\n  let obj={};\n  if (clean) {\n   try {\n    obj=JSON.parse(clean);\n    for(let i=0;i<2 && typeof obj==='string';i++) obj=JSON.parse(obj);\n   } catch (_) {\n    const line=clean.match(/(?:^|\\n)Cookie:\\s*([^\\r\\n]+)/i);\n    const cookie=line ? line[1] : clean;\n    if (!/(?:^|;)\\s*_m_h5_tk=[^;]+/.test(cookie)) throw Error('format');\n    const nick=cookie.match(/(?:^|;)\\s*_nk_=([^;]+)/);\n    if (!nick) throw Error('name');\n    const name=decodeURIComponent(nick[1]);\n    obj=Object.create(null);obj[name]=cookie;\n   }\n  }\n  if (!obj || Array.isArray(obj) || typeof obj !== 'object') throw Error('format');\n  const keys=Object.keys(obj);\n  for (const k of keys) {\n   if (!k.trim() || ['__proto__','constructor','prototype','undefined','Undefined'].includes(k) ||\n       typeof obj[k] !== 'string' || !/(?:^|;)\\s*_m_h5_tk=/.test(obj[k])) throw Error('account');\n  }\n  return {ok:'ALA_STORE_OK', json:mode==='run' && !keys.length ? '' : JSON.stringify(obj),count:keys.length};\n } catch (_) { return {ok:'ALA_STORE_ERROR',json:'',count:0}; }\n}\nconst raw=decodeURIComponent(escape(atob(\"￼\")));document.body.textContent=JSON.stringify(parseStore(raw,\"run\"));</script></body></html>",
+        "attachmentsByRange": {
+          "{1209, 1}": {
+            "OutputUUID": "E21FDADB-4205-4F1B-B952-92FC41AE8A23",
+            "Type": "ActionOutput",
+            "OutputName": "文本"
+          }
+        }
+      }
+    ]
+  }
+]
