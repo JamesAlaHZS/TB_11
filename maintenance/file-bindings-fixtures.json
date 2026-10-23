@@ -1,7 +1,7 @@
 [
   {
     "file": "天猫双十一CK赛车-ala.shortcut",
-    "signed_sha256": "b960992753309d2003e4b7076615c48e994939810aa41fc48c6da9b1dd1a30a6",
+    "signed_sha256": "5f19dcabe0a6d18dcbdaa194f1c4a4185ac0e38b5f01261f4fbbca6bbcd2790f",
     "actions": [
       {
         "WFWorkflowActionIdentifier": "is.workflow.actions.file.createfolder",
@@ -9,10 +9,10 @@
           "WFFilePath": "abc/tb",
           "WFFolder": {
             "fileLocation": {
-              "relativeSubpath": "",
+              "WFFileLocationType": "Shortcuts",
               "fileProviderDomainID": "com.apple.CloudDocs.MobileDocumentsFileProvider",
-              "appContainerBundleIdentifier": "com.apple.shortcuts",
-              "WFFileLocationType": "Shortcuts"
+              "relativeSubpath": "",
+              "appContainerBundleIdentifier": "com.apple.shortcuts"
             },
             "filename": "Documents",
             "displayName": "Shortcuts"
@@ -24,10 +24,10 @@
         "WFWorkflowActionParameters": {
           "WFFolder": {
             "fileLocation": {
-              "relativeSubpath": "",
+              "WFFileLocationType": "Shortcuts",
               "fileProviderDomainID": "com.apple.CloudDocs.MobileDocumentsFileProvider",
-              "appContainerBundleIdentifier": "com.apple.shortcuts",
-              "WFFileLocationType": "Shortcuts"
+              "relativeSubpath": "",
+              "appContainerBundleIdentifier": "com.apple.shortcuts"
             },
             "filename": "Documents",
             "displayName": "Shortcuts"
@@ -63,75 +63,55 @@
         }
       },
       {
+        "WFWorkflowActionIdentifier": "is.workflow.actions.documentpicker.open",
+        "WFWorkflowActionParameters": {
+          "WFFile": {
+            "fileLocation": {
+              "WFFileLocationType": "Shortcuts",
+              "fileProviderDomainID": "com.apple.CloudDocs.MobileDocumentsFileProvider",
+              "relativeSubpath": "",
+              "appContainerBundleIdentifier": "com.apple.shortcuts"
+            },
+            "filename": "Documents",
+            "displayName": "Shortcuts"
+          },
+          "WFGetFilePath": "abc/cookie/ckfile.txt",
+          "WFFileErrorIfNotFound": false,
+          "WFShowFilePicker": false,
+          "WFGetFolderContents": false,
+          "UUID": "1FE64F9F-FCB1-4FEE-8268-EE90874FB566"
+        }
+      },
+      {
         "WFWorkflowActionIdentifier": "is.workflow.actions.file.createfolder",
         "WFWorkflowActionParameters": {
+          "WFFolder": {
+            "fileLocation": {
+              "WFFileLocationType": "Shortcuts",
+              "fileProviderDomainID": "com.apple.CloudDocs.MobileDocumentsFileProvider",
+              "relativeSubpath": "",
+              "appContainerBundleIdentifier": "com.apple.shortcuts"
+            },
+            "filename": "Documents",
+            "displayName": "Shortcuts"
+          },
           "WFFilePath": "abc",
-          "WFFolder": {
-            "fileLocation": {
-              "relativeSubpath": "",
-              "fileProviderDomainID": "com.apple.CloudDocs.MobileDocumentsFileProvider",
-              "appContainerBundleIdentifier": "com.apple.shortcuts",
-              "WFFileLocationType": "Shortcuts"
-            },
-            "filename": "Documents",
-            "displayName": "Shortcuts"
-          },
-          "UUID": "1C0E6FA2-5BDD-43E2-8B4B-44D6A13EE22B"
+          "UUID": "890AAABC-EA1C-41AE-B55A-3FC67860D367"
         }
       },
       {
         "WFWorkflowActionIdentifier": "is.workflow.actions.file.createfolder",
         "WFWorkflowActionParameters": {
+          "WFFolder": {
+            "Value": {
+              "OutputUUID": "890AAABC-EA1C-41AE-B55A-3FC67860D367",
+              "Type": "ActionOutput",
+              "OutputName": "文件夹"
+            },
+            "WFSerializationType": "WFTextTokenAttachment"
+          },
           "WFFilePath": "cookie",
-          "WFFolder": {
-            "Value": {
-              "OutputUUID": "1C0E6FA2-5BDD-43E2-8B4B-44D6A13EE22B",
-              "Type": "ActionOutput",
-              "OutputName": "文件夹"
-            },
-            "WFSerializationType": "WFTextTokenAttachment"
-          },
-          "UUID": "CC0211EE-F014-4920-8A1D-4D5C598BCA94"
-        }
-      },
-      {
-        "WFWorkflowActionIdentifier": "is.workflow.actions.file.getfoldercontents",
-        "WFWorkflowActionParameters": {
-          "WFFolder": {
-            "Value": {
-              "OutputUUID": "CC0211EE-F014-4920-8A1D-4D5C598BCA94",
-              "Type": "ActionOutput",
-              "OutputName": "文件夹"
-            },
-            "WFSerializationType": "WFTextTokenAttachment"
-          },
-          "Recursive": false,
-          "UUID": "C83DEE73-D040-442A-87B3-FA8AF2281FDA"
-        }
-      },
-      {
-        "WFWorkflowActionIdentifier": "is.workflow.actions.documentpicker.save",
-        "WFWorkflowActionParameters": {
-          "WFFolder": {
-            "fileLocation": {
-              "relativeSubpath": "",
-              "fileProviderDomainID": "com.apple.CloudDocs.MobileDocumentsFileProvider",
-              "appContainerBundleIdentifier": "com.apple.shortcuts",
-              "WFFileLocationType": "Shortcuts"
-            },
-            "filename": "Documents",
-            "displayName": "Shortcuts"
-          },
-          "WFInput": {
-            "Value": {
-              "VariableName": "ALA存储原文",
-              "Type": "Variable"
-            },
-            "WFSerializationType": "WFTextTokenAttachment"
-          },
-          "WFAskWhereToSave": false,
-          "WFSaveFileOverwrite": true,
-          "WFFileDestinationPath": "abc/cookie/ckfile-backup.txt"
+          "UUID": "66DFA48A-D3D4-455E-B219-8A5DB2173AC3"
         }
       },
       {
@@ -151,10 +131,10 @@
           },
           "WFFolder": {
             "fileLocation": {
-              "relativeSubpath": "",
+              "WFFileLocationType": "Shortcuts",
               "fileProviderDomainID": "com.apple.CloudDocs.MobileDocumentsFileProvider",
-              "appContainerBundleIdentifier": "com.apple.shortcuts",
-              "WFFileLocationType": "Shortcuts"
+              "relativeSubpath": "",
+              "appContainerBundleIdentifier": "com.apple.shortcuts"
             },
             "filename": "Documents",
             "displayName": "Shortcuts"
@@ -166,10 +146,10 @@
         "WFWorkflowActionParameters": {
           "WFFolder": {
             "fileLocation": {
-              "relativeSubpath": "",
+              "WFFileLocationType": "Shortcuts",
               "fileProviderDomainID": "com.apple.CloudDocs.MobileDocumentsFileProvider",
-              "appContainerBundleIdentifier": "com.apple.shortcuts",
-              "WFFileLocationType": "Shortcuts"
+              "relativeSubpath": "",
+              "appContainerBundleIdentifier": "com.apple.shortcuts"
             },
             "filename": "Documents",
             "displayName": "Shortcuts"
@@ -209,10 +189,10 @@
         "WFWorkflowActionParameters": {
           "WFFolder": {
             "fileLocation": {
-              "relativeSubpath": "",
+              "WFFileLocationType": "Shortcuts",
               "fileProviderDomainID": "com.apple.CloudDocs.MobileDocumentsFileProvider",
-              "appContainerBundleIdentifier": "com.apple.shortcuts",
-              "WFFileLocationType": "Shortcuts"
+              "relativeSubpath": "",
+              "appContainerBundleIdentifier": "com.apple.shortcuts"
             },
             "filename": "Documents",
             "displayName": "Shortcuts"
@@ -248,75 +228,55 @@
         }
       },
       {
+        "WFWorkflowActionIdentifier": "is.workflow.actions.documentpicker.open",
+        "WFWorkflowActionParameters": {
+          "WFFile": {
+            "fileLocation": {
+              "WFFileLocationType": "Shortcuts",
+              "fileProviderDomainID": "com.apple.CloudDocs.MobileDocumentsFileProvider",
+              "relativeSubpath": "",
+              "appContainerBundleIdentifier": "com.apple.shortcuts"
+            },
+            "filename": "Documents",
+            "displayName": "Shortcuts"
+          },
+          "WFGetFilePath": "abc/cookie/ckfile.txt",
+          "WFFileErrorIfNotFound": false,
+          "WFShowFilePicker": false,
+          "WFGetFolderContents": false,
+          "UUID": "135D13DA-B5B3-41CD-A49C-60CC47E2FF26"
+        }
+      },
+      {
         "WFWorkflowActionIdentifier": "is.workflow.actions.file.createfolder",
         "WFWorkflowActionParameters": {
+          "WFFolder": {
+            "fileLocation": {
+              "WFFileLocationType": "Shortcuts",
+              "fileProviderDomainID": "com.apple.CloudDocs.MobileDocumentsFileProvider",
+              "relativeSubpath": "",
+              "appContainerBundleIdentifier": "com.apple.shortcuts"
+            },
+            "filename": "Documents",
+            "displayName": "Shortcuts"
+          },
           "WFFilePath": "abc",
-          "WFFolder": {
-            "fileLocation": {
-              "relativeSubpath": "",
-              "fileProviderDomainID": "com.apple.CloudDocs.MobileDocumentsFileProvider",
-              "appContainerBundleIdentifier": "com.apple.shortcuts",
-              "WFFileLocationType": "Shortcuts"
-            },
-            "filename": "Documents",
-            "displayName": "Shortcuts"
-          },
-          "UUID": "4A48BCB4-5B9E-49BA-8284-31EDF81D55A7"
+          "UUID": "2ABEFF6C-EA38-4BA5-ACDA-CC3390EC4202"
         }
       },
       {
         "WFWorkflowActionIdentifier": "is.workflow.actions.file.createfolder",
         "WFWorkflowActionParameters": {
+          "WFFolder": {
+            "Value": {
+              "OutputUUID": "2ABEFF6C-EA38-4BA5-ACDA-CC3390EC4202",
+              "Type": "ActionOutput",
+              "OutputName": "文件夹"
+            },
+            "WFSerializationType": "WFTextTokenAttachment"
+          },
           "WFFilePath": "cookie",
-          "WFFolder": {
-            "Value": {
-              "OutputUUID": "4A48BCB4-5B9E-49BA-8284-31EDF81D55A7",
-              "Type": "ActionOutput",
-              "OutputName": "文件夹"
-            },
-            "WFSerializationType": "WFTextTokenAttachment"
-          },
-          "UUID": "EB253907-062D-4172-85EB-214C6A5F98A5"
-        }
-      },
-      {
-        "WFWorkflowActionIdentifier": "is.workflow.actions.file.getfoldercontents",
-        "WFWorkflowActionParameters": {
-          "WFFolder": {
-            "Value": {
-              "OutputUUID": "EB253907-062D-4172-85EB-214C6A5F98A5",
-              "Type": "ActionOutput",
-              "OutputName": "文件夹"
-            },
-            "WFSerializationType": "WFTextTokenAttachment"
-          },
-          "Recursive": false,
-          "UUID": "07353A05-C111-4CA4-A6BA-921A2B671DC1"
-        }
-      },
-      {
-        "WFWorkflowActionIdentifier": "is.workflow.actions.documentpicker.save",
-        "WFWorkflowActionParameters": {
-          "WFFolder": {
-            "fileLocation": {
-              "relativeSubpath": "",
-              "fileProviderDomainID": "com.apple.CloudDocs.MobileDocumentsFileProvider",
-              "appContainerBundleIdentifier": "com.apple.shortcuts",
-              "WFFileLocationType": "Shortcuts"
-            },
-            "filename": "Documents",
-            "displayName": "Shortcuts"
-          },
-          "WFInput": {
-            "Value": {
-              "VariableName": "ALA存储原文",
-              "Type": "Variable"
-            },
-            "WFSerializationType": "WFTextTokenAttachment"
-          },
-          "WFAskWhereToSave": false,
-          "WFSaveFileOverwrite": true,
-          "WFFileDestinationPath": "abc/cookie/ckfile-backup.txt"
+          "UUID": "43E109C6-7E09-4469-BC98-C680C94CDB6F"
         }
       },
       {
@@ -336,10 +296,10 @@
           },
           "WFFile": {
             "fileLocation": {
-              "relativeSubpath": "",
+              "WFFileLocationType": "Shortcuts",
               "fileProviderDomainID": "com.apple.CloudDocs.MobileDocumentsFileProvider",
-              "appContainerBundleIdentifier": "com.apple.shortcuts",
-              "WFFileLocationType": "Shortcuts"
+              "relativeSubpath": "",
+              "appContainerBundleIdentifier": "com.apple.shortcuts"
             },
             "filename": "Documents",
             "displayName": "Shortcuts"
@@ -353,7 +313,7 @@
   },
   {
     "file": "双十一中国行ck模式-ala.shortcut",
-    "signed_sha256": "8bf0b1fa44babc02bf7510afd78a22712046b9a5244afd7d16783498339ef17d",
+    "signed_sha256": "5bad13cdc8e2e1916ca5fdebcca996ac017696db88e36aa1319e79fa149ee8ee",
     "actions": [
       {
         "WFWorkflowActionIdentifier": "is.workflow.actions.file.createfolder",
@@ -361,10 +321,10 @@
           "WFFilePath": "abc/tb",
           "WFFolder": {
             "fileLocation": {
-              "relativeSubpath": "",
+              "WFFileLocationType": "Shortcuts",
               "fileProviderDomainID": "com.apple.CloudDocs.MobileDocumentsFileProvider",
-              "appContainerBundleIdentifier": "com.apple.shortcuts",
-              "WFFileLocationType": "Shortcuts"
+              "relativeSubpath": "",
+              "appContainerBundleIdentifier": "com.apple.shortcuts"
             },
             "filename": "Documents",
             "displayName": "Shortcuts"
@@ -376,10 +336,10 @@
         "WFWorkflowActionParameters": {
           "WFFolder": {
             "fileLocation": {
-              "relativeSubpath": "",
+              "WFFileLocationType": "Shortcuts",
               "fileProviderDomainID": "com.apple.CloudDocs.MobileDocumentsFileProvider",
-              "appContainerBundleIdentifier": "com.apple.shortcuts",
-              "WFFileLocationType": "Shortcuts"
+              "relativeSubpath": "",
+              "appContainerBundleIdentifier": "com.apple.shortcuts"
             },
             "filename": "Documents",
             "displayName": "Shortcuts"
@@ -415,75 +375,55 @@
         }
       },
       {
+        "WFWorkflowActionIdentifier": "is.workflow.actions.documentpicker.open",
+        "WFWorkflowActionParameters": {
+          "WFFile": {
+            "fileLocation": {
+              "WFFileLocationType": "Shortcuts",
+              "fileProviderDomainID": "com.apple.CloudDocs.MobileDocumentsFileProvider",
+              "relativeSubpath": "",
+              "appContainerBundleIdentifier": "com.apple.shortcuts"
+            },
+            "filename": "Documents",
+            "displayName": "Shortcuts"
+          },
+          "WFGetFilePath": "abc/cookie/ckfile.txt",
+          "WFFileErrorIfNotFound": false,
+          "WFShowFilePicker": false,
+          "WFGetFolderContents": false,
+          "UUID": "4457377B-2CEC-4F95-9AFA-98261123BF98"
+        }
+      },
+      {
         "WFWorkflowActionIdentifier": "is.workflow.actions.file.createfolder",
         "WFWorkflowActionParameters": {
+          "WFFolder": {
+            "fileLocation": {
+              "WFFileLocationType": "Shortcuts",
+              "fileProviderDomainID": "com.apple.CloudDocs.MobileDocumentsFileProvider",
+              "relativeSubpath": "",
+              "appContainerBundleIdentifier": "com.apple.shortcuts"
+            },
+            "filename": "Documents",
+            "displayName": "Shortcuts"
+          },
           "WFFilePath": "abc",
-          "WFFolder": {
-            "fileLocation": {
-              "relativeSubpath": "",
-              "fileProviderDomainID": "com.apple.CloudDocs.MobileDocumentsFileProvider",
-              "appContainerBundleIdentifier": "com.apple.shortcuts",
-              "WFFileLocationType": "Shortcuts"
-            },
-            "filename": "Documents",
-            "displayName": "Shortcuts"
-          },
-          "UUID": "864C4004-5B19-4642-A8EB-DB771A648614"
+          "UUID": "E47DBC44-DAEF-41B0-8263-BCEEFBBE496D"
         }
       },
       {
         "WFWorkflowActionIdentifier": "is.workflow.actions.file.createfolder",
         "WFWorkflowActionParameters": {
+          "WFFolder": {
+            "Value": {
+              "OutputUUID": "E47DBC44-DAEF-41B0-8263-BCEEFBBE496D",
+              "Type": "ActionOutput",
+              "OutputName": "文件夹"
+            },
+            "WFSerializationType": "WFTextTokenAttachment"
+          },
           "WFFilePath": "cookie",
-          "WFFolder": {
-            "Value": {
-              "OutputUUID": "864C4004-5B19-4642-A8EB-DB771A648614",
-              "Type": "ActionOutput",
-              "OutputName": "文件夹"
-            },
-            "WFSerializationType": "WFTextTokenAttachment"
-          },
-          "UUID": "A098A127-2D07-44DE-B02A-A257B9BEFB29"
-        }
-      },
-      {
-        "WFWorkflowActionIdentifier": "is.workflow.actions.file.getfoldercontents",
-        "WFWorkflowActionParameters": {
-          "WFFolder": {
-            "Value": {
-              "OutputUUID": "A098A127-2D07-44DE-B02A-A257B9BEFB29",
-              "Type": "ActionOutput",
-              "OutputName": "文件夹"
-            },
-            "WFSerializationType": "WFTextTokenAttachment"
-          },
-          "Recursive": false,
-          "UUID": "C2B63089-2D94-4028-A0D6-42439B483812"
-        }
-      },
-      {
-        "WFWorkflowActionIdentifier": "is.workflow.actions.documentpicker.save",
-        "WFWorkflowActionParameters": {
-          "WFFolder": {
-            "fileLocation": {
-              "relativeSubpath": "",
-              "fileProviderDomainID": "com.apple.CloudDocs.MobileDocumentsFileProvider",
-              "appContainerBundleIdentifier": "com.apple.shortcuts",
-              "WFFileLocationType": "Shortcuts"
-            },
-            "filename": "Documents",
-            "displayName": "Shortcuts"
-          },
-          "WFInput": {
-            "Value": {
-              "VariableName": "ALA存储原文",
-              "Type": "Variable"
-            },
-            "WFSerializationType": "WFTextTokenAttachment"
-          },
-          "WFAskWhereToSave": false,
-          "WFSaveFileOverwrite": true,
-          "WFFileDestinationPath": "abc/cookie/ckfile-backup.txt"
+          "UUID": "DECD64F9-7955-400C-85F8-E11C7402E061"
         }
       },
       {
@@ -503,10 +443,10 @@
           },
           "WFFolder": {
             "fileLocation": {
-              "relativeSubpath": "",
+              "WFFileLocationType": "Shortcuts",
               "fileProviderDomainID": "com.apple.CloudDocs.MobileDocumentsFileProvider",
-              "appContainerBundleIdentifier": "com.apple.shortcuts",
-              "WFFileLocationType": "Shortcuts"
+              "relativeSubpath": "",
+              "appContainerBundleIdentifier": "com.apple.shortcuts"
             },
             "filename": "Documents",
             "displayName": "Shortcuts"
@@ -518,10 +458,10 @@
         "WFWorkflowActionParameters": {
           "WFFolder": {
             "fileLocation": {
-              "relativeSubpath": "",
+              "WFFileLocationType": "Shortcuts",
               "fileProviderDomainID": "com.apple.CloudDocs.MobileDocumentsFileProvider",
-              "appContainerBundleIdentifier": "com.apple.shortcuts",
-              "WFFileLocationType": "Shortcuts"
+              "relativeSubpath": "",
+              "appContainerBundleIdentifier": "com.apple.shortcuts"
             },
             "filename": "Documents",
             "displayName": "Shortcuts"
@@ -561,10 +501,10 @@
         "WFWorkflowActionParameters": {
           "WFFolder": {
             "fileLocation": {
-              "relativeSubpath": "",
+              "WFFileLocationType": "Shortcuts",
               "fileProviderDomainID": "com.apple.CloudDocs.MobileDocumentsFileProvider",
-              "appContainerBundleIdentifier": "com.apple.shortcuts",
-              "WFFileLocationType": "Shortcuts"
+              "relativeSubpath": "",
+              "appContainerBundleIdentifier": "com.apple.shortcuts"
             },
             "filename": "Documents",
             "displayName": "Shortcuts"
@@ -600,75 +540,55 @@
         }
       },
       {
+        "WFWorkflowActionIdentifier": "is.workflow.actions.documentpicker.open",
+        "WFWorkflowActionParameters": {
+          "WFFile": {
+            "fileLocation": {
+              "WFFileLocationType": "Shortcuts",
+              "fileProviderDomainID": "com.apple.CloudDocs.MobileDocumentsFileProvider",
+              "relativeSubpath": "",
+              "appContainerBundleIdentifier": "com.apple.shortcuts"
+            },
+            "filename": "Documents",
+            "displayName": "Shortcuts"
+          },
+          "WFGetFilePath": "abc/cookie/ckfile.txt",
+          "WFFileErrorIfNotFound": false,
+          "WFShowFilePicker": false,
+          "WFGetFolderContents": false,
+          "UUID": "083B00BD-5A32-4F70-9A92-3F68C27C966B"
+        }
+      },
+      {
         "WFWorkflowActionIdentifier": "is.workflow.actions.file.createfolder",
         "WFWorkflowActionParameters": {
+          "WFFolder": {
+            "fileLocation": {
+              "WFFileLocationType": "Shortcuts",
+              "fileProviderDomainID": "com.apple.CloudDocs.MobileDocumentsFileProvider",
+              "relativeSubpath": "",
+              "appContainerBundleIdentifier": "com.apple.shortcuts"
+            },
+            "filename": "Documents",
+            "displayName": "Shortcuts"
+          },
           "WFFilePath": "abc",
-          "WFFolder": {
-            "fileLocation": {
-              "relativeSubpath": "",
-              "fileProviderDomainID": "com.apple.CloudDocs.MobileDocumentsFileProvider",
-              "appContainerBundleIdentifier": "com.apple.shortcuts",
-              "WFFileLocationType": "Shortcuts"
-            },
-            "filename": "Documents",
-            "displayName": "Shortcuts"
-          },
-          "UUID": "CD6C9983-4BA9-479C-8E45-BC11140260D6"
+          "UUID": "43584E80-76C4-4995-8380-84CE94866BDD"
         }
       },
       {
         "WFWorkflowActionIdentifier": "is.workflow.actions.file.createfolder",
         "WFWorkflowActionParameters": {
+          "WFFolder": {
+            "Value": {
+              "OutputUUID": "43584E80-76C4-4995-8380-84CE94866BDD",
+              "Type": "ActionOutput",
+              "OutputName": "文件夹"
+            },
+            "WFSerializationType": "WFTextTokenAttachment"
+          },
           "WFFilePath": "cookie",
-          "WFFolder": {
-            "Value": {
-              "OutputUUID": "CD6C9983-4BA9-479C-8E45-BC11140260D6",
-              "Type": "ActionOutput",
-              "OutputName": "文件夹"
-            },
-            "WFSerializationType": "WFTextTokenAttachment"
-          },
-          "UUID": "15D4831B-1EC5-41A9-8302-E5E5F34C2451"
-        }
-      },
-      {
-        "WFWorkflowActionIdentifier": "is.workflow.actions.file.getfoldercontents",
-        "WFWorkflowActionParameters": {
-          "WFFolder": {
-            "Value": {
-              "OutputUUID": "15D4831B-1EC5-41A9-8302-E5E5F34C2451",
-              "Type": "ActionOutput",
-              "OutputName": "文件夹"
-            },
-            "WFSerializationType": "WFTextTokenAttachment"
-          },
-          "Recursive": false,
-          "UUID": "2264B698-BADF-408E-BFF8-63DFFE4A486E"
-        }
-      },
-      {
-        "WFWorkflowActionIdentifier": "is.workflow.actions.documentpicker.save",
-        "WFWorkflowActionParameters": {
-          "WFFolder": {
-            "fileLocation": {
-              "relativeSubpath": "",
-              "fileProviderDomainID": "com.apple.CloudDocs.MobileDocumentsFileProvider",
-              "appContainerBundleIdentifier": "com.apple.shortcuts",
-              "WFFileLocationType": "Shortcuts"
-            },
-            "filename": "Documents",
-            "displayName": "Shortcuts"
-          },
-          "WFInput": {
-            "Value": {
-              "VariableName": "ALA存储原文",
-              "Type": "Variable"
-            },
-            "WFSerializationType": "WFTextTokenAttachment"
-          },
-          "WFAskWhereToSave": false,
-          "WFSaveFileOverwrite": true,
-          "WFFileDestinationPath": "abc/cookie/ckfile-backup.txt"
+          "UUID": "40D03F8D-AFB9-4CDF-8F25-E16DEA4EEE3B"
         }
       },
       {
@@ -688,10 +608,10 @@
           },
           "WFFile": {
             "fileLocation": {
-              "relativeSubpath": "",
+              "WFFileLocationType": "Shortcuts",
               "fileProviderDomainID": "com.apple.CloudDocs.MobileDocumentsFileProvider",
-              "appContainerBundleIdentifier": "com.apple.shortcuts",
-              "WFFileLocationType": "Shortcuts"
+              "relativeSubpath": "",
+              "appContainerBundleIdentifier": "com.apple.shortcuts"
             },
             "filename": "Documents",
             "displayName": "Shortcuts"
