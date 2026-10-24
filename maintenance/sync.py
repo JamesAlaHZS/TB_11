@@ -1,9 +1,6 @@
 """Fetch known upstream resources, sanitize, validate everything, then update the mirror."""
-import argparse, base64, concurrent.futures, hashlib, json, os, re, subprocess, time
-from datetime import datetime, timezone
+import argparse, base64, hashlib, json, os, re, subprocess, tempfile
 from pathlib import Path
-from urllib.request import Request, urlopen
-from urllib.error import HTTPError, URLError
 
 ROOT = Path(__file__).resolve().parents[1]
 POLICY = json.loads((ROOT/'maintenance/policy.json').read_text(encoding='utf8'))
@@ -128,31 +125,40 @@ def suspicious(s):
     decoded=unquote(s)
     if decoded!=s:suspicious(decoded)
 
-def network_text(url):
-    request=Request(url,headers={'User-Agent':'TB11-ala-resource-sync/1.0','Cache-Control':'no-cache'})
-    for attempt in range(3):
-        try:
-            with urlopen(request,timeout=35) as r:
-                if r.status!=200:raise ValueError('Unexpected HTTP status')
-                raw=r.read(1024*1024+1)
-            break
-        except (HTTPError,URLError,TimeoutError) as error:
-            if isinstance(error,HTTPError) and error.code not in [418,429,500,502,503,504]:raise
-            if attempt==2:raise
-            time.sleep([3,10][attempt])
-    if len(raw)>1024*1024:raise ValueError('Upstream resource too large')
-    return raw.decode('utf-8-sig')
+def git_sources():
+    """Read every upstream resource from one GitCode commit via Git HTTPS."""
+    with tempfile.TemporaryDirectory(prefix='tb11-upstream-') as clone_dir:
+        subprocess.run(
+            ['git','clone','--quiet','--depth=1','--filter=blob:none','--no-checkout',
+             POLICY['upstream_git'],clone_dir],
+            check=True,stdout=subprocess.DEVNULL,timeout=180,
+            env={**os.environ,'GIT_TERMINAL_PROMPT':'0'})
+        revision=subprocess.check_output(['git','-C',clone_dir,'rev-parse','HEAD'],text=True).strip()
+        print('Upstream GitCode revision: '+revision,flush=True)
+        sources=[]
+        for resource in POLICY['resources']:
+            path=resource['source']
+            if Path(path).is_absolute() or '..' in Path(path).parts:
+                raise ValueError('Unsafe upstream path: '+path)
+            result=subprocess.run(
+                ['git','-C',clone_dir,'show','HEAD:'+path],
+                check=True,stdout=subprocess.PIPE,timeout=45,
+                env={**os.environ,'GIT_TERMINAL_PROMPT':'0'})
+            if len(result.stdout)>1024*1024:
+                raise ValueError('Upstream resource too large: '+path)
+            sources.append(result.stdout.decode('utf-8-sig'))
+        return sources
 
 def run(snapshot=None,initialize=False,check=False):
-    def fetch(r):
-        if snapshot:
+    if snapshot:
+        def fetch(r):
             if r['kind']=='json':
                 index=0 if 'tb26618' in r['source'] else 1
                 return Path(snapshot).parent.joinpath('originals',str(index)+'.config.raw').read_text(encoding='utf-8-sig')
             return (Path(snapshot)/r['source']).read_text(encoding='utf-8-sig')
-        return network_text(POLICY['upstream_base']+r['source'])
-    with concurrent.futures.ThreadPoolExecutor(max_workers=2) as pool:
-        sources=list(pool.map(fetch,POLICY['resources']))
+        sources=[fetch(r) for r in POLICY['resources']]
+    else:
+        sources=git_sources()
     baseline_path=ROOT/'maintenance/baseline.json'
     baseline={} if initialize else json.loads(baseline_path.read_text(encoding='utf8'))
     outputs={}; current={}; approved={}

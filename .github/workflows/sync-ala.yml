@@ -37,6 +37,7 @@ jobs:
       - name: Validate runtime resources
         run: node maintenance/test.cjs
       - name: Publish only after all checks pass
+        if: github.ref == 'refs/heads/main'
         shell: bash
         run: |
           git add config/ck-*.json scripts/ck-*.js maintenance/sync-state.json
