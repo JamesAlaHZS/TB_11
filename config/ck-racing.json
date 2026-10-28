@@ -9,8 +9,7 @@
       "运行任务-手动填ck运行",
       "添加或删除ck持久化账号",
       "点我快速抓去抓ck页面",
-      "ala 交流群 1095180136",
-      "无需ck直接运行版本"
+      "交流·反馈 1095180136"
     ],
     "mapping": {
       "无需ck直接运行版本": {
@@ -21,6 +20,9 @@
       },
       "1111超级红包": {
         "url": "taobao://m.tb.cn/h.j3VpHkQ"
+      },
+      "交流·反馈 1095180136": {
+        "url": "mqqapi://card/show_pslcard?src_type=internal&version=1&uin=1095180136&card_type=group&source=qrcode"
       },
       "点我更新到新版本": {
         "url": "https://github.com/JamesAlaHZS/TB_11/tree/main/shortcuts"
@@ -153,7 +155,7 @@
         "adurl": "://market.m.taobao.com/app/tbsearchwireless-pages/tao-gold-srp-task-pop/index?sceneId=8917&q=iphone",
         "ckurl": "://pages-fast.m.taobao.com/wow/z/tmtjb/town/home?x-ssr=true&disableNav=YES&pha_h5=true&pha_nav=true&uniapp_id=1011525&uniapp_page=home&hd_from=tmnc26618&prismChannel=poplayer&sceneId=8917&hd_from_id=100260",
         "ckitemUrl": "://商品定位.m.tmall.com?deliveryId=占位参数1&sceneId=8917&hd_from_id=100260&implId=占位参数2",
-        "wait": 23,
+        "wait": 25,
         "wait2": "",
         "param": {
           "商品定位": [
@@ -165,8 +167,22 @@
           ]
         },
         "before": [],
-        "ckItem": [],
+        "ckItem": [
+          "99673 other_1396_3138010_99673_0",
+          "99889 other_1396_3144004_99889_0",
+          "99720 other_1396_3175008_99720_0",
+          "106363 other_1396_3434002_106363_0",
+          "100447 other_1396_3189008_100447_0",
+          "99726 other_1396_3165009_99726_0",
+          "106369 other_1396_3434003_106369_0",
+          "106370 other_1396_3434004_106370_0",
+          "99888 other_1396_3177005_99888_0",
+          "101866 other_1396_3227011_101866_0",
+          "107860 other_1396_3507005_107860_0"
+        ],
         "outItem": [
+          "99673",
+          "99732",
           "107021",
           "106619",
           "99667",

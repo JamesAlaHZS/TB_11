@@ -1,8 +1,8 @@
 {
   "resources": {
     "config/ck-racing.json": {
-      "source_sha256": "bd39559ea45343ab7a506d9dedd8b7567a46b6833d26cc333556c262ad8de13a",
-      "sanitized_sha256": "4900e2fa843e6c76f5865b18783c5bf4b2423aaa081022f64c7a60d5743042ca"
+      "source_sha256": "90c32f4948c21262ec6160ab794279fe4b682e2f975fd05ef2bd3eb90db91ce0",
+      "sanitized_sha256": "ac0df597ec50253da2e0c93170bec01919fe4640a56fba34d3dbbbab66938c26"
     },
     "config/ck-china.json": {
       "source_sha256": "ead0f2049bd9cba33d47455b984c0c9dabb1dcee8670a1d31d0ad431284ff6af",
