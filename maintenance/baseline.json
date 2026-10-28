@@ -26,17 +26,17 @@
       "$.taskData.种树.task.scheme": "taobao://m.taobao.com/tbopen/index.html?h5Url=",
       "$.taskData.种树.task.adurl": "://market.m.taobao.com/app/tbsearchwireless-pages/tao-gold-srp-task-pop/index?sceneId=8917&q=iphone",
       "$.taskData.种树.task.ckurl": "://pages-fast.m.taobao.com/wow/z/tmtjb/town/home?x-ssr=true&disableNav=YES&pha_h5=true&pha_nav=true&uniapp_id=1011525&uniapp_page=home&hd_from=tmnc26618&prismChannel=poplayer&sceneId=8917&hd_from_id=100260",
-      "$.taskData.种树.task.ckitemUrl": "://商品定位.m.tmall.com?deliveryId=占位参数1&sceneId=8917&hd_from_id=100260&implId=占位参数2"
+      "$.taskData.种树.task.ckitemUrl": "://商品定位.m.tmall.com?deliveryId=占位参数1&sceneId=8917&hd_from_id=100260&implId=占位参数2",
+      "$.activity.mapping.交流·反馈 1095180136.url": "mqqapi://card/show_pslcard?src_type=internal&version=1&uin=1095180136&card_type=group&source=qrcode"
     },
-    "shape_sha256": "aad8d0a87c369403a21f1415f8ed8a5f1bdca32ebb9696e76ce4b5a929fcf7b4",
+    "shape_sha256": "5a3d5da4e11120d59ed4a1170d5ca413c1f6ee67f96927c58907fa7b5c5f0243",
     "display": {
       "$.tip": "edit by ala，仅供交流学习\nQQ群：1095180136\n切记cookie账户和app账户是一个账户\n---------------\n一个手机不能运行超过三个账号\n---------------\nck模式没问题的可以不用新的\n---------------\n进群获取教程",
       "$.list[0]": "运行任务-持久化模式",
       "$.list[1]": "运行任务-手动填ck运行",
       "$.list[2]": "添加或删除ck持久化账号",
       "$.list[3]": "点我快速抓去抓ck页面",
-      "$.list[4]": "ala 交流群 1095180136",
-      "$.list[5]": "无需ck直接运行版本",
+      "$.list[4]": "交流·反馈 1095180136",
       "$.mapping.无需ck直接运行版本.url": "https://www.icloud.com/shortcuts/b9d83b3e648f4381b9f4c882bacd6a1a",
       "$.mapping.ala 使用说明.url": "https://github.com/JamesAlaHZS/TB_11#readme",
       "$.mapping.1111超级红包.url": "taobao://m.tb.cn/h.j3VpHkQ",
@@ -77,7 +77,8 @@
       "$.mapping.运行任务-手动填ck运行.mapping.取cookie教程.value": "1",
       "$.mapping.运行任务-手动填ck运行.mapping.点我快速去登录页面web版.url": "https://login.m.taobao.com/login.htm?redirectURL=https://main.m.taobao.com/mytaobao/index.html",
       "$.mapping.运行任务-手动填ck运行.mapping.点我快速抓去页面APP版.url": "tbopen://m.taobao.com/tbopen/index.html?h5Url=https%3A%2F%2Fmain.m.taobao.com%2Fmytaobao%2Findex.html",
-      "$.taskList[0]": "种树"
+      "$.taskList[0]": "种树",
+      "$.mapping.交流·反馈 1095180136.url": "mqqapi://card/show_pslcard?src_type=internal&version=1&uin=1095180136&card_type=group&source=qrcode"
     }
   },
   "config/ck-china.json": {
