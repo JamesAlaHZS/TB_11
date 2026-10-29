@@ -9,7 +9,7 @@
       "sanitized_sha256": "824d9102dcdc144b1f4b5620bac31708edb794b4b90d95f7868d6fbf169eb024"
     },
     "scripts/ck-common.js": {
-      "source_sha256": "22fa16142ce2386f399bc3ed26f97562d879e7060b3dc8abbb4b735d9e1c629c",
+      "source_sha256": "e5c001c71c8641897808dd311a606771b856feea1314eb728bae6c29509008ca",
       "sanitized_sha256": "abe7d5f84d3975b28f65912bbda16206559a442b375a059f9da18b6db7ca4a37"
     },
     "scripts/ck-racing.js": {
