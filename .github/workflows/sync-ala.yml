@@ -5,7 +5,7 @@ on:
       - 'maintenance/**'
       - '.github/workflows/sync-ala.yml'
   schedule:
-    - cron: '17 * * * *'
+    - cron: '37 * * * *'
   workflow_dispatch:
 permissions:
   contents: write
