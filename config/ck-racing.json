@@ -12,9 +12,6 @@
       "交流·反馈 1095180136"
     ],
     "mapping": {
-      "无需ck直接运行版本": {
-        "url": "https://www.icloud.com/shortcuts/b9d83b3e648f4381b9f4c882bacd6a1a"
-      },
       "ala 使用说明": {
         "url": "https://github.com/JamesAlaHZS/TB_11#readme"
       },
@@ -131,6 +128,9 @@
             "url": "tbopen://m.taobao.com/tbopen/index.html?h5Url=https%3A%2F%2Fmain.m.taobao.com%2Fmytaobao%2Findex.html"
           }
         }
+      },
+      "无需ck直接运行版本": {
+        "url": "https://www.icloud.com/shortcuts/b9d83b3e648f4381b9f4c882bacd6a1a"
       }
     },
     "taskList": [
