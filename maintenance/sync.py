@@ -54,13 +54,14 @@ def customize_activity(obj):
     def walk(value):
         if isinstance(value,dict):
             for key in list(value):
-                if '视频教程' in key:
+                # Keep locally curated menu entries stable when upstream replaces them.
+                if '视频教程' in key or key == '普通模式已经修复了':
                     del value[key]
                     continue
                 if key=='list' and isinstance(value[key],list):
-                    value[key]=[v for v in value[key] if not (isinstance(v,str) and '视频教程' in v)]
+                    value[key]=[v for v in value[key] if not (isinstance(v,str) and ('视频教程' in v or v == '普通模式已经修复了'))]
                 if key=='tip' and isinstance(value[key],str):
-                    value[key]=value[key].replace('遇到问题点视频教程','进群获取教程').replace('抓不到包的去视频教程下拉','进群获取教程').replace('不会取cookie的点下面的获取cookie','进群获取教程')
+                    value[key]=value[key].replace('遇到问题点视频教程','进群获取教程').replace('抓不到包的去视频教程下拉','进群获取教程').replace('不会取cookie的点下面的获取cookie','进群获取教程').replace('普通模式已经修复了','ck模式没问题的可以不用新的')
                     lines=value[key].splitlines();seen=False;kept=[]
                     for line in lines:
                         if '视频教程' in line:continue
@@ -68,7 +69,7 @@ def customize_activity(obj):
                             if seen:continue
                             seen=True
                         kept.append(line)
-                    value[key]='\n'.join(kept)
+                    value[key]='\n'.join(kept).rstrip()
                 walk(value[key])
         elif isinstance(value,list):
             for v in value:walk(v)
@@ -76,10 +77,11 @@ def customize_activity(obj):
     tip=obj['activity'].get('tip','').rstrip()
     if '进群获取教程' not in tip:tip+='\n进群获取教程'
     obj['activity']['tip']=tip
-    for key,value in obj['activity'].get('mapping',{}).items():
+    mapping=obj['activity'].setdefault('mapping',{})
+    mapping['无需ck直接运行版本']={'url':POLICY['no_ck_shortcut_url']}
+    for key,value in mapping.items():
         if '无需ck' in key.lower() and isinstance(value,dict):value['url']=POLICY['no_ck_shortcut_url']
     return obj
-
 def checked_json(source):
     obj=json.loads(source)
     result=clean_json(obj)
